@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url("../fonts/Gotham-Bold.otf"); }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 1;
+  height: 100%;
+  font-family: "Roboto", sans-serif; }
+
+ol, ul, dl {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+h1 {
+  font-weight: 500; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+td {
+  padding: 0; }
+
+@media screen and (max-width: 750px) {
+  .intro .inner .name {
+    font-size: 15vmin;
+    line-height: 16min; }
+  .intro .inner .exp {
+    font-size: 4.5vmin;
+    line-height: 5.5vmin; }
+  nav {
+    font-size: 4vmin;
+    line-height: 6vmin; } }
+
+@media screen and (min-width: 750px) {
+  .intro .inner .name {
+    font-size: 20vmin;
+    line-height: 21vmin; }
+  .intro .inner .exp {
+    font-size: 3.5vmin;
+    line-height: 4.5vmin; }
+  nav {
+    font-size: 3vmin;
+    line-height: 4vmin; } }
+
+.intro {
+  height: calc(80vh - 60px); }
+  .intro .inner {
+    padding: 4vw; }
+    .intro .inner .name {
+      font-family: 'Gotham-Bold'; }
+    .intro .inner .exp {
+      padding-top: 2vw;
+      padding-left: .5vw; }
+
+nav {
+  font-family: 'Gotham-Bold';
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-left: 4vw; }
+  nav .header-menu {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px; }
+    nav .header-menu .menu {
+      display: inline-block;
+      padding-right: 2vw; }
+
+.thumb-img {
+  width: 100%; }
+
+.container {
+  padding: 0 2vw; }
+  .container .box {
+    margin: 0 auto; }
+    .container .box .project .thumb-project {
+      margin-bottom: 50px; }
+
+.container.home a div {
+  display: inline-block; }
+
+.container.about {
+  line-height: 1.7; }
+  .container.about .img {
+    background-color: orange;
+    display: contents; }
+  .container.about .box {
+    padding-top: 2vw; }
+    .container.about .box .contents {
+      padding: 4vw 0 0; }
+      .container.about .box .contents dt {
+        font-family: 'Gotham-Bold'; }
+      .container.about .box .contents table {
+        width: 100%; }
+
+.container.works .single-intro {
+  background-color: #FFCE53; }
+
+.container.works .single {
+  max-width: 600px;
+  margin: 0 auto; }
