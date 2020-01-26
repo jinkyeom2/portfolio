@@ -1,0 +1,244 @@
+<aside>
+  <ul class="aside-menu">
+    <li>
+      <label for="item-1" class="select works" id="#single-works">Works</label>
+      <input type="checkbox" name="one" id="item-1">
+      <ul class="works-title hide">
+          <li><a href="#">위메프패션<div>Mobile Web</div></a></li>
+          <li><a href="#">룩북<div>Mobile Web</div></a></li>
+          <li><a href="#">스타일핫딜<div>Mobile Web</div></a></li>
+          <li><a href="#">INCH"(인치)<div>Mobile Web</br>iOS App</br>Android App</div></a></li>
+          <li><a href="#">위메프구매후기<div>Mobile Web</div></a></li>
+          <li><a href="#">olleego<div>Android App</br>Responsive Web</div></a></li>
+          <li><a href="#">스테이즈<div>Responsive Web</div></a></li>
+      </ul>
+    </li>
+    <li><div class="select"><a href="#single-about">About</a></div></li>
+    <li><div class="select"><a href="#single-contacts">Contacts</a></div></li>
+  </ul>
+</aside>
+
+<div class="single">
+  <section class="single-intro" id="single-intro">
+    <div class="cover">
+      <div class="title">
+        JINKYEOM LEE
+      </div>
+    </div>
+    <div class="desc">
+      <div class="period">2015 - present</div>
+      <div>
+        현재 신사업 서비스 부문에서 패션분야와 관련된 다양한 서비스 출시를 경험하며 서비스 방향에 맞는 UX설계 및 UI디자인. 인터랙션 구현.</br>
+        신사업 서비스팀에서 다양한 서비스를 출시 실패하는 경험을 토대로 서비스에 대한 방향을 가지고 디자인할 수 있는 능력을 기름.</br>
+        현재 신사업 패션서비스 디자인 담당자로 데이터를 기반으로 디자인할 수 있도록 노력 중.</br>
+        현재 웹모바일 서비스에 집중하고 있고, iOS 및 Android 앱 출시를 경험.</br>
+        스타트업에서 부동산 및 헬스케어 분야에서 서비스 기획 및 디자인을 담당하며</br>
+        반응형 웹서비스 및 iOS 및 Android 앱 출시.</br>
+        스타트업에서 문제에 스스로 학습하고 대처할 수 있는 능력 가짐.
+      </div>
+    </div>
+  </section>
+  <section class="single-works" id="single-works">
+    <dl>
+      <dt> 위메프패션</dt>
+      <div class="works-contents">
+        <table>
+          <tbody>
+              <tr>
+                  <td>위메프에 전문화된 패션 서비스가 필요. 매력적인 패션 상품을 한 곳에서 탐색할 수 있는 공간이 부족. 패션 디자인 담당으로 주도적으로 패션 서비스 UI를 변경 제안. 기존 여러개의 상품이 합쳐져 상품을 탐색하기 어려웠던 구조인 위메프 패션 서비스</td>
+                  <td>
+                    <ul>
+                      <li>- Web Mobile</li>
+                      <li>- Interaction Design, UI,UX Design (기여 100%)</li>
+                      <li>- Sketch, Protopie, Zeplin</li>
+                    </ul>
+                  </td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </dl>
+  </section>
+  <section class="single-about" id="single-about">
+    <dl class="s_profile">
+      <dt class="name">jinkyeom lee</dt>
+
+    </dl>
+    <dl class=contents>
+      <dt>Education</dt>
+      <table>
+        <tbody>
+            <tr>
+                <td>서울여자대학교 산업디자인학과 졸업</td>
+                <td>2015졸업</td>
+            </tr>
+        </tbody>
+      </table>
+    </dl>
+    <dl class=contents>
+      <dt>Career</dt>
+      <table>
+        <tbody>
+            <tr>
+                <td>위메프</td>
+                <td>2017-present</td>
+                <td>UI.UX Designer</td>
+            </tr>
+            <tr>
+                <td>이든이노베이션</td>
+                <td>2016-2017</td>
+                <td>UI.UX Designer</td>
+            </tr>
+            <tr>
+                <td>스테이즈</td>
+                <td>2015-2016</td>
+                <td>UI.UX Designer</td>
+            </tr>
+        </tbody>
+      </table>
+    </dl>
+    <dl class=contents>
+        <dt>Contacts</dt>
+        jinkyeom2@gmail.com
+        010-4404-2698
+    </dl>
+    <dl>
+        <dt>Resume</dt>
+        다운로드
+    </dl>
+  </section>
+  <section class="single-contacts" id="single-contacts">
+    hi
+  </section>
+</div>
+
+
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url("../fonts/Gotham-Bold.otf");
+ }
+
+
+body {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1;
+}
+
+ol,ul,dl {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+aside {
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  border-right: 1px solid #E5E5E5;
+  overflow-y: scroll;
+  .aside-menu {
+    padding-left: 40px;
+    position: relative;
+    top: 35%;
+
+  }
+  .select {
+    font-family: 'Gotham-Bold';
+    padding-top: 40px;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .works-title {
+    overflow: hidden;
+    li {
+      padding-top: 30px;
+      div {
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin-top: 8px;
+        // overflow: hidden;
+      }
+    }
+  }
+  input {
+  position: absolute;
+  left: -999em;
+  }
+  .hide {
+  overflow: hidden;
+  transition: all 0.5s ease;
+  }
+  input[type="checkbox"]:checked + .hide {
+  height: 0;
+  opacity: 0;
+  display: block;
+  }
+  // input[type="checkbox"]:checked + .aside-menu {
+  // position: relative;
+  // top: 0;
+  // }
+}
+
+.single {
+  padding: 0;
+  position: absolute;
+  left: 220px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  .single-intro {
+    .cover {
+      position: relative;
+      height: 100vh;
+      background-color: #f0f0f0;
+      .title {
+        font-family: 'Gotham-Bold';
+        font-size: 5rem;
+        position: relative;
+        top: 40%;
+      }
+    }
+  }
+  .single-works {
+    dt {
+      position: relative;
+      height: 100vh;
+      background-color: #FD5151;
+    }
+    .works-contents {
+      padding: 60px;
+    }
+  }
+  .single-about {
+    background-color: yellow;
+    position: relative;
+    height: 100vh;
+    padding: 60px 0 0 60px;
+    .s_profile {
+      line-height: 1.4;
+    }
+    dl {
+      dt {
+        font-size: 1rem;
+        font-weight: 700;
+      }
+    }
+  }
+  .single-contacts {
+    background-color: orange;
+    position: relative;
+    height: 100vh;
+  }
+
+
+
+}
