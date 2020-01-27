@@ -65,6 +65,14 @@ nav {
     font-size: 5vmin;
     padding: 3vw 0 0; } }
 
+@media screen and (min-width: 980px) {
+  .intro {
+    height: calc(50vh); } }
+
+@media screen and (min-width: 981px) {
+  .intro {
+    height: calc(75vh); } }
+
 .intro .inner {
   font-family: 'Gotham-Bold'; }
   .intro .inner ::-moz-selection {
@@ -115,42 +123,52 @@ nav {
   padding: 6vh 3vw;
   overflow: hidden; }
 
-.thumb-img {
+.main-img {
   width: 100%; }
 
 .container.home .intro {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 6vh 4vw;
-  height: calc(80vh); }
+  padding: 6vh 4vw; }
 
-.container.home .box .thumb-project {
-  vertical-align: top;
-  margin: 0 1vw;
-  margin-bottom: 10vh;
-  float: left; }
-  .container.home .box .thumb-project .img {
-    overflow: hidden; }
-    .container.home .box .thumb-project .img:hover {
-      -webkit-transform: scale(1.05);
-      transform: scale(1.05);
-      -webkit-transition: -webkit-transform .2s;
-      transition: -webkit-transform .2s;
-      transition: transform .2s;
-      transition: transform .2s, -webkit-transform .2s; }
-  .container.home .box .thumb-project .thumb-title {
-    font-size: 18px;
-    font-weight: 700;
-    padding: 14px 0 6px;
-    color: #020202; }
-  .container.home .box .thumb-project p {
-    color: #595959; }
+.container.home .box {
+  padding-top: 0; }
+  .container.home .box .thumb-project {
+    vertical-align: top;
+    margin: 0 1vw;
+    margin-bottom: 10vh;
+    float: left; }
+    .container.home .box .thumb-project .box-item {
+      position: relative;
+      width: 100%; }
+      .container.home .box .thumb-project .box-item .rollover a .box-photo {
+        position: relative;
+        overflow: hidden;
+        z-index: 1; }
+        .container.home .box .thumb-project .box-item .rollover a .box-photo .thumb-img {
+          position: relative;
+          display: block;
+          width: 100%;
+          height: auto;
+          z-index: 1; }
+          .container.home .box .thumb-project .box-item .rollover a .box-photo .thumb-img:hover {
+            -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+            -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out; }
+    .container.home .box .thumb-project .thumb-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      padding: 14px 0 6px;
+      color: #020202; }
+    .container.home .box .thumb-project p {
+      color: #595959; }
 
-@media screen and (max-width: 828px) {
+@media screen and (max-width: 980px) {
   .box .thumb-project {
     width: 100%; } }
 
-@media screen and (min-width: 829px) {
+@media screen and (min-width: 981px) {
   .box .thumb-project {
     width: calc(50% - 2vw); } }
 
