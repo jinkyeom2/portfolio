@@ -3,14 +3,15 @@
   src: url("fonts/Gotham-Bold.otf");
  }
 
-
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-size: 15px;
   line-height: 1;
   height: 100%;
   font-family: "Roboto", sans-serif;
+  color: #020202;
+
 }
 
 ol,ul,dl {
@@ -21,6 +22,7 @@ ol,ul,dl {
 
 h1 {
   font-weight: 500;
+  margin: 0;
 }
 
 a {
@@ -32,157 +34,206 @@ td {
   padding: 0;
 }
 
-// @media screen and (max-width: 960px) {
-//
-// }
-//
-// @media screen and (min-width: 961px) {
-//
-// }
-
-@media screen and (max-width: 750px) {
-  .intro {
-    .inner {
-      .name {
-        font-size: 15vmin;
-        line-height: 16vmin;
-      }
-    }
-  }
-  nav {
-    font-size: 4vmin;
-    line-height: 6vmin;
-  }
+p {
+  margin: 0;
 }
 
-@media screen and (min-width: 750px) {
-  .intro {
-    .inner {
-      .name {
-        font-size: 20vmin;
-        line-height: 21vmin;
-      }
-    }
-  }
-  nav {
-    font-size: 3vmin;
-    line-height: 4vmin;
-  }
+tbody {
+  vertical-align: top;
 }
-
-.intro {
-  height: calc(80vh - 60px);
-  .inner {
-    padding: 4vw;
-    font-family: 'Gotham-Bold';
-    .link {
-      font-size: 3vmin;
-    }
-  }
-}
-
 
 
 nav {
   font-family: 'Gotham-Bold';
-  position: sticky;
+  position: fixed;
   top:0;
-  padding-left: 4vw;
+  padding-left: 2vw;
+
   .header-menu {
     display: inline-block;
     height: 60px;
+    font-size: 6vmin;
     line-height: 60px;
-    .menu {
-      display: inline-block;
-      padding-right: 2vw;
+    span {
+      vertical-align: middle;
+      color: #020202;
+      &:hover {
+        color: #1BA3F0;
+      }
     }
   }
 }
 
+@media screen and (max-width: 414px) {
+  .intro {
+    .inner {
+      .name {
+        font-size: 17vmin;
+        line-height: 19vmin;
+      }
+      .link {
+        font-size: 7vmin;
+        padding: 5vw 0 0;
+      }
+    }
+  }
+}
+@media screen and (min-width: 415px) {
+  .intro {
+    .inner {
+      .name {
+        font-size: 15vmin;
+        line-height: 17vmin;
+      }
+      .link {
+        font-size: 5vmin;
+        padding: 3vw 0 0;
+      }
+    }
+  }
+}
 
+.intro {
+  // height: calc(95vh - 60px);
+  .inner {
+    font-family: 'Gotham-Bold';
+    ::selection {
+      background: #020202;
+      color: #fff;
+    }
+    .name {
+      .color1 {
+        &:hover {
+          color: #FBAE3C;
+        }
+      }
+      .color2 {
+        &:hover {
+          color: #FA903B;
+        }
+      }
+      .color3 {
+        &:hover {
+          color: #F051CC;
+        }
+      }
+      .color4 {
+        &:hover {
+          color: #7927F5;
+        }
+      }
+    }
+    .link {
+      span {
+        margin-left: 4px;
+        vertical-align: middle;
+        display: inline-block;
+        border-radius: 50%;
+        min-width: 14px;
+        min-height: 14px;
+        padding: 3px;
+        background: #020202;
+        color: white;
+        text-align: center;
+        line-height: 1;
+        box-sizing: content-box;
+        white-space: nowrap;
+        i {
+          vertical-align: bottom;
+        }
+      }
+      &:hover {
+        color: #1BA3F0;
+        span {
+          color: #1BA3F0;
+          background: #fff;
+        }
+      }
+    }
+  }
+}
 
-// @media screen and (max-width: 960px) {
-//   .box {
-//     .thumb-project {
-//       width: 100%;
-//     }
-//     .thumb-title {
-//       font-size: 1rem;
-//     }
-//   }
-// }
-//
-// @media screen and (min-width: 961px) {
-//   .box {
-//     max-width: 1024px;
-//     .thumb-project {
-//       &.works1 {
-//         width: 50%;
-//         float: left;
-//       }
-//       &.works2 {
-//         width: 56%;
-//         float: right;
-//       }
-//       &.works3 {
-//         width: 66%;
-//         float: left;
-//       }
-//       &.works4 {
-//         width: 66%;
-//         float: right;
-//       }
-//     }
-//
-//     .thumb-title {
-//       font-size: 1.1rem;
-//     }
-//   }
-// }
+.container {
+  // background: orange;
+  // line-height: 1.7;
+  .img {
+    display: flex;
+  }
+  .box {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 6vh 3vw;
+    overflow: hidden;
+  }
+}
 
 .thumb-img {
   width: 100%;
 }
 
 .container {
-  // background: orange;
-  padding: 0 2vw;
-  .box {
-    margin: 0 auto;
-    .project {
-      // padding-top: 150px;
-      .thumb-project {
-        margin-bottom: 50px;
-      }
-    }
-  }
-}
-
-.container {
   &.home {
-    a {
-      div {
-        display: inline-block;
+    .intro {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 6vh 4vw;
+      height: calc(80vh);
+    }
+
+    .box {
+      .thumb-project {
+        vertical-align: top;
+        margin: 0 1vw;
+        margin-bottom: 10vh;
+        float: left;
+        .img {
+          overflow: hidden;
+          &:hover {
+            transform: scale(1.05);
+            transition: transform .2s;
+          }
+        }
+        .thumb-title {
+          font-size: 18px;
+          font-weight: 700;
+          padding: 14px 0 6px;
+          color: #020202;
+        }
+        p {
+          color: #595959;
+        }
       }
     }
   }
 }
 
+
+@media screen and (max-width: 828px) {
+  .box {
+    .thumb-project {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 829px) {
+  .box {
+
+    .thumb-project {
+      width: calc(50% - 2vw);
+    }
+  }
+}
 
 .container {
   &.about {
-    line-height: 1.7;
-    .img {
-      background-color: orange;
-      display: contents;
-    }
     .box {
-      padding-top: 2vw;
+      line-height: 1.7;
       .contents {
         padding: 4vw 0 0;
-        dt {
+        .title {
           font-family: 'Gotham-Bold';
-          // font-weight: 700;
+          font-weight: 700;
         }
         table {
           width: 100%;
@@ -192,14 +243,7 @@ nav {
   }
 }
 
-.container {
-  &.works {
-    .single-intro {
-      background-color: #FFCE53;
-    }
-    .single {
-      max-width: 600px;
-      margin: 0 auto;
-    }
-  }
+footer {
+  background: #020202;
+  height: 500px;
 }
