@@ -37,7 +37,7 @@ nav {
   font-family: 'Gotham-Bold';
   position: fixed;
   top: 0;
-  padding-left: 80px;
+  padding-left: 40px;
   z-index: 10; }
   nav .header-menu {
     display: inline-block;
