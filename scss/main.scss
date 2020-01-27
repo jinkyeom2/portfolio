@@ -48,7 +48,7 @@ nav {
   position: fixed;
   top:0;
   padding-left: 2vw;
-
+  z-index: 10;
   .header-menu {
     display: inline-block;
     height: 60px;
@@ -164,22 +164,16 @@ nav {
 }
 
 .container {
-  // background: orange;
-  // line-height: 1.7;
-  .img {
-    display: flex;
-  }
   .box {
     max-width: 1440px;
     margin: 0 auto;
     padding: 6vh 3vw;
     overflow: hidden;
+    line-height: 1.7;
   }
 }
 
-.main-img {
-  width: 100%;
-}
+
 
 .container {
   &.home {
@@ -196,16 +190,6 @@ nav {
         margin: 0 1vw;
         margin-bottom: 10vh;
         float: left;
-        // height: 28vh;
-        // .img {
-        //   // overflow: hidden;
-        //   // height: 28vh;
-        //   background-image: url(../images/projects_w.jpg);
-        //   &:hover {
-        //     transform: scale(1.1);
-        //     transition: transform .2s;
-        //   }
-        // }
         .box-item {
           position: relative;
           width: 100%;
@@ -246,26 +230,62 @@ nav {
 
 
 @media screen and (max-width: 980px) {
-  .box {
-    .thumb-project {
-      width: 100%;
+  .container {
+    &.home {
+      .box {
+        .thumb-project {
+          width: 100%;
+        }
+      }
     }
   }
 }
 
 @media screen and (min-width: 981px) {
-  .box {
-
-    .thumb-project {
-      width: calc(50% - 2vw);
+  .container {
+    &.home {
+      .box {
+        .thumb-project {
+          width: calc(50% - 2vw);
+        }
+      }
     }
   }
 }
 
+
+
 .container {
   &.about {
+    .img-wrapper {
+      width: 100%;
+      background-color: #f5f5f5;
+      .img-cover {
+          position: relative;
+          // width: 50%;
+          // margin: 0 auto;
+          height: 40vh;
+          overflow: hidden;
+          .img-inner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            transform: translate(50%,50%);
+            .main-img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              // width: 100%;
+              // height: auto;
+              transform: translate(-50%,-50%);
+            }
+          }
+      }
+    }
     .box {
-      line-height: 1.7;
+
       .contents {
         padding: 4vw 0 0;
         .title {
@@ -273,8 +293,107 @@ nav {
           font-weight: 700;
         }
         table {
-          width: 100%;
+          // width: 100%;
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .container {
+    &.about {
+      .main-img {
+        width: auto;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 561px) {
+  .container {
+    &.about {
+      .main-img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+.container {
+  &.project {
+    .img-wrapper {
+      width: 100%;
+      background-color: #f5f5f5;
+      .img-cover {
+          position: relative;
+          // width: 80%;
+          margin: 0 auto;
+          height: 70vh;
+          overflow: hidden;
+          .img-inner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            transform: translate(50%,50%);
+            .main-img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              // width: 100%;
+              // height: auto;
+              transform: translate(-50%,-50%);
+            }
+          }
+      }
+    }
+    .box {
+      .script {
+        .title {
+          font-size: 36px;
+          font-weigh: 700;
+        }
+        .desc-box {
+          width: 100%;
+          .desc {
+            float: left;
+            display: block;
+            width: 80%;
+          }
+          .point {
+            // padding-left: 4vw;
+            // vertical-align: top;
+            float: right;
+            display: block;
+            width: 20%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .container {
+    &.project {
+      .main-img {
+        width: auto;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 951px) {
+  .container {
+    &.project {
+      .main-img {
+        width: 100%;
+        height: auto;
       }
     }
   }
