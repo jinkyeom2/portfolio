@@ -53,10 +53,10 @@ a {
   .container .intro {
     padding: 20px; }
     .container .intro .inner .name {
-      font-size: 150px;
-      line-height: 170px; }
+      font-size: 55px;
+      line-height: 65px; }
     .container .intro .inner .link {
-      font-size: 60px; }
+      font-size: 20px; }
   .container .box {
     padding: 0 20px; }
     .container .box ul {
@@ -189,14 +189,15 @@ a {
           margin-top: 14px; }
           .container .box ul .projects-inner li.thumb-project .box-desc .thumb-title {
             font-size: 24px;
+            line-height: 1;
             font-weight: 700;
-            padding-bottom: 6px; }
+            padding-bottom: 4px; }
 
 .container.about .box {
-  padding: 40px; }
+  padding: 20px; }
 
 .container.project .box {
-  padding: 40px; }
+  padding: 20px; }
 
 footer {
   background: #020202;

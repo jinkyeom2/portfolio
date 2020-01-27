@@ -97,11 +97,11 @@
       padding: 20px;
       .inner {
         .name {
-          font-size: 150px;
-          line-height: 170px;
+          font-size: 55px;
+          line-height: 65px;
         }
         .link {
-          font-size: 60px;
+          font-size: 20px;
         }
       }
     }
@@ -307,8 +307,9 @@
             margin-top: 14px;
             .thumb-title {
               font-size: 24px;
+              line-height: 1;
               font-weight: 700;
-              padding-bottom: 6px;
+              padding-bottom: 4px;
             }
           }
         }
@@ -317,12 +318,12 @@
   }
   &.about {
     .box {
-      padding: 40px;
+      padding: 20px;
     }
   }
   &.project {
     .box {
-      padding: 40px;
+      padding: 20px;
     }
   }
 }
