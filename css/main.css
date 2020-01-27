@@ -28,10 +28,7 @@ td {
 @media screen and (max-width: 750px) {
   .intro .inner .name {
     font-size: 15vmin;
-    line-height: 16min; }
-  .intro .inner .exp {
-    font-size: 4.5vmin;
-    line-height: 5.5vmin; }
+    line-height: 16vmin; }
   nav {
     font-size: 4vmin;
     line-height: 6vmin; } }
@@ -40,9 +37,6 @@ td {
   .intro .inner .name {
     font-size: 20vmin;
     line-height: 21vmin; }
-  .intro .inner .exp {
-    font-size: 3.5vmin;
-    line-height: 4.5vmin; }
   nav {
     font-size: 3vmin;
     line-height: 4vmin; } }
@@ -50,12 +44,10 @@ td {
 .intro {
   height: calc(80vh - 60px); }
   .intro .inner {
-    padding: 4vw; }
-    .intro .inner .name {
-      font-family: 'Gotham-Bold'; }
-    .intro .inner .exp {
-      padding-top: 2vw;
-      padding-left: .5vw; }
+    padding: 4vw;
+    font-family: 'Gotham-Bold'; }
+    .intro .inner .link {
+      font-size: 3vmin; }
 
 nav {
   font-family: 'Gotham-Bold';

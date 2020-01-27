@@ -45,11 +45,7 @@ td {
     .inner {
       .name {
         font-size: 15vmin;
-        line-height: 16min;
-      }
-      .exp {
-        font-size: 4.5vmin;
-        line-height: 5.5vmin;
+        line-height: 16vmin;
       }
     }
   }
@@ -66,10 +62,6 @@ td {
         font-size: 20vmin;
         line-height: 21vmin;
       }
-      .exp {
-        font-size: 3.5vmin;
-        line-height: 4.5vmin;
-      }
     }
   }
   nav {
@@ -80,15 +72,11 @@ td {
 
 .intro {
   height: calc(80vh - 60px);
-  // background-color: #EBECE8;
   .inner {
     padding: 4vw;
-    .name {
-      font-family: 'Gotham-Bold';
-    }
-    .exp {
-      padding-top: 2vw;
-      padding-left: .5vw;
+    font-family: 'Gotham-Bold';
+    .link {
+      font-size: 3vmin;
     }
   }
 }
