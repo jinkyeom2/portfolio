@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Gotham-Bold' 'Roboto', sans-serif;
-  src: url("fonts/Gotham-Bold.otf"); }
+  src: url("fonts/Gotham-Bold.woff") format("woff"); }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -146,7 +146,7 @@ a {
     float: left; }
   .about .desc-box .point {
     width: 30%;
-    float: right; }
+    float: left; }
   .project .desc-box .desc {
     width: 70%;
     float: left; }
