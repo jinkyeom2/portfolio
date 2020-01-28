@@ -113,11 +113,11 @@ a {
         margin: 0 8px;
         width: calc(50% - 20px); }
   .about .desc-box .desc {
-    width: 50%;
+    width: 70%;
     float: left; }
   .about .desc-box .point {
-    width: 50%;
-    float: left; }
+    width: 30%;
+    float: right; }
   .project .desc-box .desc {
     width: 70%;
     float: left; }
@@ -146,11 +146,11 @@ a {
         margin: 0 8px;
         width: calc(33% - 20px); }
   .about .desc-box .desc {
-    width: 50%;
+    width: 70%;
     float: left; }
   .about .desc-box .point {
-    width: 50%;
-    float: left; }
+    width: 30%;
+    float: right; }
   .project .desc-box .desc {
     width: 70%;
     float: left; }
@@ -263,16 +263,21 @@ a {
       color: #666666;
       font-size: 13px; }
     .container.about .box .contents .desc-box .desc-box-inner {
-      overflow: hidden; }
-    .container.about .box .contents .desc-box .project {
+      overflow: hidden;
+      margin-bottom: 6px; }
+      .container.about .box .contents .desc-box .desc-box-inner .desc {
+        font-weight: 700; }
+    .container.about .box .contents .desc-box .career-wrapper .career-point {
+      color: #666666; }
+    .container.about .box .contents .desc-box .service {
+      margin-top: 12px;
       padding-left: 20px;
       overflow: hidden; }
-      .container.about .box .contents .desc-box .project ul.project-wrapper li.project-inner {
-        margin-top: 8px;
+      .container.about .box .contents .desc-box .service ul.service-wrapper li.service-inner {
         float: left;
         list-style: circle;
         width: 100%; }
-        .container.about .box .contents .desc-box .project ul.project-wrapper li.project-inner .desc {
+        .container.about .box .contents .desc-box .service ul.service-wrapper li.service-inner .desc {
           margin-top: 4px; }
 
 .container.project .img-wrapper {

@@ -150,12 +150,12 @@
   &.about {
     .desc-box {
       .desc {
-        width: 50%;
+        width: 70%;
         float: left;
       }
       .point {
-        width: 50%;
-        float: left;
+        width: 30%;
+        float: right;
       }
     }
   }
@@ -207,12 +207,12 @@
   &.about {
     .desc-box {
       .desc {
-        width: 50%;
+        width: 70%;
         float: left;
       }
       .point {
-        width: 50%;
-        float: left;
+        width: 30%;
+        float: right;
       }
     }
   }
@@ -393,13 +393,23 @@
           }
           .desc-box-inner {
             overflow: hidden;
+            margin-bottom: 6px;
+            .desc {
+              font-weight: 700;
+            }
           }
-          .project {
+          .career-wrapper {
+            .career-point {
+              color: #666666;
+            }
+          }
+          .service {
+            margin-top: 12px;
             padding-left: 20px;
             overflow: hidden;
-            ul.project-wrapper {
-              li.project-inner {
-                margin-top: 8px;
+            ul.service-wrapper {
+              li.service-inner {
+                // margin-top: 8px;
                 float: left;
                 list-style: circle;
                 width: 100%;
