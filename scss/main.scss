@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Montserrat' 'Open Sans' 'Gotham-Bold' 'Roboto', sans-serif;
+  font-family: 'Montserrat' 'Roboto', sans-serif;
   src: url("fonts/Gotham-Bold.woff") format('woff');
  }
 
@@ -24,6 +24,7 @@
    color: #020202;
    font-size: 15px;
    line-height: 1;
+   font-family: 'Roboto', sans-serif;
    // font-family: 'Open Sans', sans-serif;
  }
  /* HTML5 display-role reset for older browsers */

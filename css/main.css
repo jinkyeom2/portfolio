@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Montserrat' 'Open Sans' 'Gotham-Bold' 'Roboto', sans-serif;
+  font-family: 'Montserrat' 'Roboto', sans-serif;
   src: url("fonts/Gotham-Bold.woff") format("woff"); }
 
 html, body, div, span, applet, object, iframe,
@@ -22,7 +22,8 @@ time, mark, audio, video {
 body {
   color: #020202;
   font-size: 15px;
-  line-height: 1; }
+  line-height: 1;
+  font-family: 'Roboto', sans-serif; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
