@@ -3,7 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>komi</title>
+    <base href = "/" />
+    <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
+
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   </head>
   <!-- <script>
     setTimeout(function(){
@@ -13,16 +20,8 @@
   </script> -->
   <body>
     <!-- <div id="loader" style="z-index: 99;height:1000px; width:1000px; position:fixed; background:red;"></div> -->
-    <div class="intro">
-      <div class="inner">
-        <div class="name"><a href="/">JINKYEOM </br>LEE</a></div>
-        <div class="menu"><a href="documents/about.html">About</a></div>
-        <!-- <div class="exp">
-          UX.UI Designer, Product Designer, 디지털 환경에서 사용자 경험을 바탕으로 문제를 해결하고, 사용자의 행동패턴에 따른 결과물을 만들기 위해 노력한다.
-        </div> -->
-      </div>
-    </div>
-    <nav>
+
+    <!-- <nav>
       <div class="header-menu">
         <div class="menu"><a href="#projectA">위메프패션</a></div>
         <div class="menu"><a href="#projectB">원더쇼핑룩북</a></div>
@@ -31,54 +30,88 @@
         <div class="menu"><a href="#projectE">INCH"</a></div>
         <div class="menu"><a href="#projectF">올리고</a></div>
         <div class="menu"><a href="#projectG">스테이즈</a></div>
-        <!-- <div class="menu scroll"><a href="#projects">scroll</a></div> -->
-        <!-- <div class="menu"><a href="../index.html">Projects</a></div> -->
-        <!-- <div class="menu"><a href="mailto:jinkyeom2@gmail.com">Email</a></div> -->
-        <!-- <div class="menu"><a href="../documents/2019_wmp_fashion.html">Contacts</a></div> -->
       </div>
-    </nav>
-
+    </nav> -->
     <section id="projects" class="container home">
+      <div class="intro">
+        <div class="inner">
+          <a href="documents/about.html">
+            <div class="name">I'm a <span class="color1">UX</span>.<span class="color2">UI</span></br><span class="color3">Designer,</span></br><span class="color4">JINKYEOM LEE</span></div>
+            <div class="link">About me<span><i class="icon_right"></i></span></div>
+          </a>
+        </div>
+      </div>
       <div class="box">
         <ul class="projects">
-          <li id="projectA" class="thumb-project works1">
-            <a href="documents/2019_wmp_fashion.html">
-              <div class="img">
-                <img src="images/aa.png" class="thumb-img">
-              </div>
-              <div class="desc">
-                <h1 clsss="thumb-title">위메프패션 런칭하기</h1>
-                <p>0000.00.00</p>
-              </div>
-            </a>
-          </li>
-          <li id="projectB" class="thumb-project works2">
-            <a href="documents/2019_wmp_fashion.html">
-              <img src="images/test1.jpg" class="thumb-img">
-              <h1>원더쇼핑룩북</h1>
-            </a>
-          </li>
-          <li id="projectC" class="thumb-project works3">
-            <a href="documents/2019_wmp_fashion.html">
-              <img src="images/aa.png" class="thumb-img">
-              <h1>스타일핫딜</h1>
-            </a>
-          </li>
-          <li id="projectD" class="thumb-project works4">
-            <a href="documents/2019_wmp_fashion.html">
-              <img src="images/test1.jpg" class="thumb-img">
-              <h1>INCH"</h1>
-            </a>
-          </li>
-          <li id="projectE" class="thumb-project works5">
-            <a href="documents/2019_wmp_fashion.html">
-              <img src="images/aa.png" class="thumb-img">
-              <h1>INCH"</h1>
-            </a>
-          </li>
+            <li class="thumb-project">
+              <a href="documents/2019_wmp_fashion.html">
+                <div class="box-item">
+                  <div class="rollover ">
+                      <div class="box-photo">
+                        <img class="thumb-img" src="images/projects_w.jpg" >
+                      </div>
+                  </div>
+                </div>
+                <div class="box-desc">
+                  <div class="thumb-title">
+                    올리고, Olleego
+                  </div>
+                  <p>매일매일 건강한 다이어트 습관</p>
+                </div>
+              </a>
+            </li>
+            <li class="thumb-project">
+              <a href="documents/2019_wmp_fashion.html">
+                <div class="box-item">
+                  <div class="rollover ">
+                      <div class="box-photo">
+                        <img class="thumb-img" src="images/projects_w.jpg" >
+                      </div>
+                  </div>
+                </div>
+                <div class="box-desc">
+                  <div class="thumb-title">
+                    올리고, Olleego
+                  </div>
+                  <p>매일매일 건강한 다이어트 습관</p>
+                </div>
+              </a>
+            </li>
+            <li class="thumb-project">
+              <a href="documents/2019_wmp_fashion.html">
+                <div class="box-item">
+                  <div class="rollover ">
+                      <div class="box-photo">
+                        <img class="thumb-img" src="images/projects_w.jpg" >
+                      </div>
+                  </div>
+                </div>
+                <div class="box-desc">
+                  <div class="thumb-title">
+                    올리고, Olleego
+                  </div>
+                  <p>매일매일 건강한 다이어트 습관</p>
+                </div>
+              </a>
+            </li>
+
         </ul>
       </div>
     </section>
-
+    <footer>
+      <div class="bottom">
+        <ul class="contacts">
+          <li class="email">
+            <a href="mailto:jinkyeom2@gmail.com">Email</a>
+          </li>
+          <li class="instagram">
+            <a href="https://www.instagram.com/jinkyeom2/">Instagram</a>
+          </li>
+        </ul>
+        <div class="desc">
+          © 2020 JinkyeomLee
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
