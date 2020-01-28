@@ -136,7 +136,7 @@ a {
       margin-left: 4px;
       vertical-align: middle;
       display: inline-block;
-      border-radius: 50%;
+      border-radius: 100%;
       min-width: 14px;
       min-height: 14px;
       padding: 3px;
@@ -178,26 +178,15 @@ a {
   width: 100%;
   background-color: #f5f5f5; }
   .container.about .img-wrapper .img-cover {
-    position: relative;
     margin: 0 auto;
-    height: 70vh;
     overflow: hidden; }
     .container.about .img-wrapper .img-cover .img-inner {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      -webkit-transform: translate(50%, 50%);
-      transform: translate(50%, 50%); }
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
       .container.about .img-wrapper .img-cover .img-inner .main-img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: auto;
-        height: 100%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%); }
+        width: 100%;
+        height: auto; }
 
 .container.about .box {
   padding: 20px; }
@@ -240,6 +229,22 @@ a {
 
 .container.project .box {
   padding: 20px; }
+  .container.project .box .script .title {
+    font-size: 30px;
+    font-weight: 700; }
+  .container.project .box .script .desc-box {
+    overflow: hidden; }
+    .container.project .box .script .desc-box .desc {
+      width: 70%;
+      float: left; }
+    .container.project .box .script .desc-box .point {
+      width: 30%;
+      float: left; }
+  .container.project .box .contents .img-inner {
+    margin: 20px 0; }
+    .container.project .box .contents .img-inner .desc-img {
+      width: 100%;
+      height: auto; }
 
 .container .img-wrapper {
   background-color: #f5f5f5; }
