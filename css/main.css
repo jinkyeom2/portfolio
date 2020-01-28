@@ -376,8 +376,7 @@ a {
 footer {
   background: #020202;
   height: 40px;
-  overflow: hidden;
-  font-family: 'Montserrat'; }
+  overflow: hidden; }
   footer .bottom {
     color: #fff; }
     footer .bottom .desc {
