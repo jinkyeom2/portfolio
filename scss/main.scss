@@ -19,10 +19,11 @@
  	margin: 0;
  	padding: 0;
  	border: 0;
- 	font-size: 20px;
- 	font: inherit;
-  color: #020202;
- 	vertical-align: baseline;
+ }
+ body {
+   color: #020202;
+   font-size: 15px;
+   line-height: 1;
  }
  /* HTML5 display-role reset for older browsers */
  article, aside, details, figcaption, figure,
@@ -52,6 +53,16 @@
    color: inherit;
  }
 
+ ::selection {
+   background: #000;
+   color: #fff;
+ }
+
+ .font {
+   color: #393939;
+   font-size: 15px;
+   line-height: 23px;
+ }
 
 @media screen and (max-width: 980px) {
   .container {
@@ -69,7 +80,7 @@
     }
     .box {
       padding: 0 20px;
-      ul{
+      ul.projects{
         width: calc(100%);
         li.thumb-project {
           margin: 0;
@@ -81,14 +92,30 @@
   &.about {
     .desc-box {
       .desc {
-        width: 80%;
+        width: 100%;
         float: left;
       }
       .point {
-        width: 20%;
+        width: 100%;
         float: left;
       }
     }
+  }
+  &.project {
+    .desc-box {
+      .desc {
+        width: 100%;
+        float: left;
+      }
+      .point {
+        margin: 0;
+        width: 100%;
+        float: left;
+      }
+    }
+  }
+  footer {
+    padding: 20px;
   }
 }
 
@@ -109,7 +136,7 @@
     }
     .box {
       padding: 0 40px;
-      ul{
+      ul.projects{
         width: calc(100% + 20px);
         margin-left: -10px;
         li.thumb-project {
@@ -131,6 +158,23 @@
       }
     }
   }
+  &.project {
+    .desc-box {
+      .desc {
+        width: 70%;
+        float: left;
+      }
+      .point {
+        margin: 0;
+        width: calc(30% - 20px);
+        float: left;
+        padding-left: 20px;
+      }
+    }
+  }
+  footer {
+    padding: 40px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -149,7 +193,7 @@
     }
     .box {
       padding: 0 40px;
-      ul{
+      ul.projects{
         width: calc(100% + 20px);
         margin-left: -10px;
         li.thumb-project {
@@ -170,6 +214,23 @@
         float: left;
       }
     }
+  }
+  &.project {
+    .desc-box {
+      .desc {
+        width: 70%;
+        float: left;
+      }
+      .point {
+        margin: 0;
+        width: calc(30% - 20px);
+        float: left;
+        padding-left: 20px;
+      }
+    }
+  }
+  footer {
+    padding: 40px;
   }
 }
 
@@ -255,7 +316,6 @@
       }
     }
   }
-
   &.about {
     .img-wrapper {
       width: 100%;
@@ -288,20 +348,23 @@
     .box {
       padding: 20px;
       .script {
-        .title {
+        .title-desc {
           font-size: 20px;
+          line-height: 1.5;
           font-weight: 700;
+          font-family: 'Gotham-Bold';
         }
       }
       .contents {
         margin-top: 20px;
-        .title {
+        .title-desc {
           font-size: 17px;
+          line-height: 1.5;
           font-weight: 700;
           font-family: 'Gotham-Bold';
         }
         .desc-box {
-          .point {
+          point {
             li {
               color: #595959;
             }
@@ -341,20 +404,14 @@
     .box {
       padding: 20px;
       .script {
-        .title {
+        .title-desc {
           font-size: 30px;
+          line-height: 1.5;
           font-weight: 700;
+          font-family: 'Gotham-Bold';
         }
         .desc-box {
           overflow: hidden;
-          .desc {
-            width: 70%;
-            float: left;
-          }
-          .point {
-            width: 30%;
-            float: left;
-          }
         }
       }
       .contents {
@@ -368,21 +425,16 @@
       }
     }
   }
-
   .img-wrapper {
     background-color: #f5f5f5;
   }
-
   .box {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0 auto 80px;
     overflow: hidden;
-    line-height: 1.7;
-    // padding: 0 40px;
-    ul{
+    // line-height: 1.7;
+    ul.projects{
       box-sizing: border-box;
-      // width: calc(100% + 18px);
-      // margin-left: -9px;
       li.thumb-project {
         vertical-align: top;
         margin-bottom: 40px;
@@ -413,24 +465,30 @@
           }
         }
         .box-desc {
-          margin-top: 14px;
+          margin-top: 16px;
           .thumb-title {
-            font-size: 24px;
-            line-height: 1;
+            font-size: 20px;
+            line-height: 1.5;
             font-weight: 700;
-            padding-bottom: 4px;
+            padding-bottom: 2px;
           }
         }
       }
     }
+    .contents {
+      .desc-box {
+        overflow: hidden;
+      }
+    }
   }
-
 }
-
-
 
 
 footer {
   background: #020202;
-  height: 500px;
+  height: 20vh;
+
+  .bottom {
+    color: #fff;
+  }
 }
