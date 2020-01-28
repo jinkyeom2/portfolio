@@ -18,7 +18,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 13px;
+  font-size: 20px;
   font: inherit;
   color: #020202;
   vertical-align: baseline; }
@@ -180,13 +180,9 @@ a {
   .container.about .img-wrapper .img-cover {
     margin: 0 auto;
     overflow: hidden; }
-    .container.about .img-wrapper .img-cover .img-inner {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; }
-      .container.about .img-wrapper .img-cover .img-inner .main-img {
-        width: 100%;
-        height: auto; }
+    .container.about .img-wrapper .img-cover .img-inner .main-img {
+      width: 100%;
+      height: auto; }
 
 .container.about .box {
   padding: 20px; }
