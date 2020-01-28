@@ -214,7 +214,7 @@ a {
       vertical-align: middle;
       color: #020202; }
       .container nav .header-menu span:hover {
-        color: #1BA3F0; }
+        color: #fff; }
 
 .container.about .img-wrapper {
   width: 100%;
@@ -235,7 +235,7 @@ a {
 
 .container.about .box .script .link-btn {
   margin-top: 20px;
-  color: #595959;
+  color: #7927F5;
   font-size: 15px; }
   .container.about .box .script .link-btn a {
     text-decoration: underline; }
@@ -375,16 +375,15 @@ a {
 
 footer {
   background: #020202;
-  height: 40px;
-  overflow: hidden; }
+  height: 140px; }
   footer .bottom {
     color: #fff; }
-    footer .bottom .desc {
-      float: left; }
     footer .bottom .contacts {
-      float: right; }
+      overflow: hidden;
+      width: 100%; }
       footer .bottom .contacts li {
-        float: left;
-        padding-left: 20px; }
-        footer .bottom .contacts li a {
-          text-decoration: underline; }
+        padding-bottom: 14px; }
+    footer .bottom .desc {
+      margin-top: 36px;
+      float: left;
+      opacity: 0.5; }
