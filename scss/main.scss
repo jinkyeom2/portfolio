@@ -91,7 +91,7 @@
     }
   }
   &.about {
-    .desc-box {
+    .career-box {
       .desc {
         width: 100%;
         float: left;
@@ -149,14 +149,15 @@
     }
   }
   &.about {
-    .desc-box {
+    .career-box {
       .desc {
         width: 70%;
         float: left;
       }
       .point {
         width: 30%;
-        float: right;
+        float: left;
+        text-align: right;
       }
     }
   }
@@ -206,7 +207,7 @@
     }
   }
   &.about {
-    .desc-box {
+    .career-box {
       .desc {
         width: 70%;
         float: left;
@@ -214,6 +215,7 @@
       .point {
         width: 30%;
         float: left;
+        text-align: right;
       }
     }
   }
@@ -383,30 +385,37 @@
           font-family: 'Montserrat';
           margin-bottom: 14px;
         }
-        .desc-box {
-          margin-bottom: 20px;
+        .career-box {
+          margin-bottom: 40px;
           .point {
             li {
               color: #666666;
               font-size: 13px;
             }
           }
-          .desc-box-inner {
+          .career-box-inner {
             overflow: hidden;
             margin-bottom: 6px;
             .desc {
+              font-size: 16px;
               font-weight: 700;
             }
           }
           .career-wrapper {
+            .career-desc {
+              margin-bottom: 4px;
+            }
             .career-point {
               color: #666666;
             }
           }
           .service {
-            margin-top: 12px;
+            margin-top: 8px;
             padding-left: 20px;
             overflow: hidden;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #666666;
             ul.service-wrapper {
               li.service-inner {
                 // margin-top: 8px;

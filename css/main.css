@@ -75,10 +75,10 @@ a {
       .container .box ul.projects li.thumb-project {
         margin: 0;
         width: calc(100%); }
-  .about .desc-box .desc {
+  .about .career-box .desc {
     width: 100%;
     float: left; }
-  .about .desc-box .point {
+  .about .career-box .point {
     width: 100%;
     float: left; }
   .project .desc-box .desc {
@@ -108,12 +108,13 @@ a {
       .container .box ul.projects li.thumb-project {
         margin: 0 8px;
         width: calc(50% - 20px); }
-  .about .desc-box .desc {
+  .about .career-box .desc {
     width: 70%;
     float: left; }
-  .about .desc-box .point {
+  .about .career-box .point {
     width: 30%;
-    float: right; }
+    float: left;
+    text-align: right; }
   .project .desc-box .desc {
     width: 70%;
     float: left; }
@@ -141,12 +142,13 @@ a {
       .container .box ul.projects li.thumb-project {
         margin: 0 8px;
         width: calc(33% - 20px); }
-  .about .desc-box .desc {
+  .about .career-box .desc {
     width: 70%;
     float: left; }
-  .about .desc-box .point {
+  .about .career-box .point {
     width: 30%;
-    float: left; }
+    float: left;
+    text-align: right; }
   .project .desc-box .desc {
     width: 70%;
     float: left; }
@@ -252,27 +254,33 @@ a {
     font-weight: 700;
     font-family: 'Montserrat';
     margin-bottom: 14px; }
-  .container.about .box .contents .desc-box {
-    margin-bottom: 20px; }
-    .container.about .box .contents .desc-box .point li {
+  .container.about .box .contents .career-box {
+    margin-bottom: 40px; }
+    .container.about .box .contents .career-box .point li {
       color: #666666;
       font-size: 13px; }
-    .container.about .box .contents .desc-box .desc-box-inner {
+    .container.about .box .contents .career-box .career-box-inner {
       overflow: hidden;
       margin-bottom: 6px; }
-      .container.about .box .contents .desc-box .desc-box-inner .desc {
+      .container.about .box .contents .career-box .career-box-inner .desc {
+        font-size: 16px;
         font-weight: 700; }
-    .container.about .box .contents .desc-box .career-wrapper .career-point {
+    .container.about .box .contents .career-box .career-wrapper .career-desc {
+      margin-bottom: 4px; }
+    .container.about .box .contents .career-box .career-wrapper .career-point {
       color: #666666; }
-    .container.about .box .contents .desc-box .service {
-      margin-top: 12px;
+    .container.about .box .contents .career-box .service {
+      margin-top: 8px;
       padding-left: 20px;
-      overflow: hidden; }
-      .container.about .box .contents .desc-box .service ul.service-wrapper li.service-inner {
+      overflow: hidden;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #666666; }
+      .container.about .box .contents .career-box .service ul.service-wrapper li.service-inner {
         float: left;
         list-style: circle;
         width: 100%; }
-        .container.about .box .contents .desc-box .service ul.service-wrapper li.service-inner .desc {
+        .container.about .box .contents .career-box .service ul.service-wrapper li.service-inner .desc {
           margin-top: 4px; }
 
 .container.project .img-wrapper {
