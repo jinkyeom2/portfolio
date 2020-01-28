@@ -91,7 +91,8 @@ a {
   .project .desc-box .point {
     margin: 0;
     width: 100%;
-    float: left; }
+    float: left;
+    padding-left: 20px; }
   footer {
     padding: 20px; } }
 
@@ -100,9 +101,9 @@ a {
     padding: 40px; }
     .container .intro .inner .name {
       font-size: 100px;
-      line-height: 120px; }
+      line-height: 115px; }
     .container .intro .inner .link {
-      font-size: 30px; }
+      font-size: 24px; }
   .container .box {
     padding: 0 40px; }
     .container .box ul.projects {
@@ -122,9 +123,9 @@ a {
     float: left; }
   .project .desc-box .point {
     margin: 0;
-    width: calc(30% - 20px);
+    width: calc(30% - 40px);
     float: left;
-    padding-left: 20px; }
+    padding-left: 40px; }
   footer {
     padding: 40px; } }
 
@@ -133,9 +134,9 @@ a {
     padding: 40px; }
     .container .intro .inner .name {
       font-size: 100px;
-      line-height: 120px; }
+      line-height: 115px; }
     .container .intro .inner .link {
-      font-size: 30px; }
+      font-size: 24px; }
   .container .box {
     padding: 0 40px; }
     .container .box ul.projects {
@@ -155,9 +156,9 @@ a {
     float: left; }
   .project .desc-box .point {
     margin: 0;
-    width: calc(30% - 20px);
+    width: calc(30% - 40px);
     float: left;
-    padding-left: 20px; }
+    padding-left: 40px; }
   footer {
     padding: 40px; } }
 
@@ -174,7 +175,7 @@ a {
   .container .intro .inner .name .color4:hover {
     color: #7927F5; }
   .container .intro .inner .link {
-    margin-top: 30px; }
+    margin-top: 24px; }
     .container .intro .inner .link span {
       margin-left: 4px;
       vertical-align: middle;
@@ -233,14 +234,29 @@ a {
     font-size: 20px;
     line-height: 1.5;
     font-weight: 700;
-    font-family: 'Gotham-Bold'; }
+    font-family: 'Gotham-Bold';
+    margin-bottom: 14px; }
+  .container.about .box .script .link-btn {
+    margin-top: 20px;
+    color: #595959;
+    font-size: 15px; }
+    .container.about .box .script .link-btn a {
+      text-decoration: underline; }
   .container.about .box .contents {
     margin-top: 20px; }
+    .container.about .box .contents hr {
+      height: 1px;
+      border: none;
+      background-color: #000;
+      margin: 30px 0 10px;
+      width: 100%;
+      float: left; }
     .container.about .box .contents .title-desc {
       font-size: 17px;
       line-height: 1.5;
       font-weight: 700;
-      font-family: 'Gotham-Bold'; }
+      font-family: 'Gotham-Bold';
+      margin-bottom: 14px; }
     .container.about .box .contents .desc-box point li {
       color: #595959; }
 
@@ -278,6 +294,8 @@ a {
     font-family: 'Gotham-Bold'; }
   .container.project .box .script .desc-box {
     overflow: hidden; }
+    .container.project .box .script .desc-box .point {
+      list-style: circle; }
   .container.project .box .contents .img-inner {
     margin: 20px 0; }
     .container.project .box .contents .img-inner .desc-img {
