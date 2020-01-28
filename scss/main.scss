@@ -67,7 +67,7 @@
 @media screen and (max-width: 980px) {
   .container {
     .intro {
-      padding: 20px;
+      padding: 20px 20px 0;
       .inner {
         .name {
           font-size: 55px;
@@ -79,7 +79,7 @@
       }
     }
     .box {
-      padding: 0 20px;
+      padding: 20px;
       ul.projects{
         width: calc(100%);
         li.thumb-project {
@@ -124,7 +124,7 @@
 @media screen and (min-width: 981px) and (max-width: 1439px){
   .container {
     .intro {
-      padding: 40px;
+      padding: 40px 40px 0;
       .inner {
         .name {
           font-size: 100px;
@@ -136,7 +136,7 @@
       }
     }
     .box {
-      padding: 0 40px;
+      padding: 40px;
       ul.projects{
         width: calc(100% + 20px);
         margin-left: -10px;
@@ -154,7 +154,7 @@
         float: left;
       }
       .point {
-        width: 30%;
+        width: 50%;
         float: left;
       }
     }
@@ -181,7 +181,7 @@
 @media screen and (min-width: 1440px) {
   .container {
     .intro {
-      padding: 40px;
+      padding: 40px 40px 0;
       .inner {
         .name {
           font-size: 100px;
@@ -193,7 +193,7 @@
       }
     }
     .box {
-      padding: 0 40px;
+      padding: 40px;
       ul.projects{
         width: calc(100% + 20px);
         margin-left: -10px;
@@ -211,7 +211,7 @@
         float: left;
       }
       .point {
-        width: 30%;
+        width: 50%;
         float: left;
       }
     }
@@ -347,7 +347,7 @@
       }
     }
     .box {
-      padding: 20px;
+      // padding: 40px 0 0;
       .script {
         .title-desc {
           font-size: 20px;
@@ -384,9 +384,30 @@
           margin-bottom: 14px;
         }
         .desc-box {
-          point {
+          margin-bottom: 20px;
+          .point {
             li {
-              color: #595959;
+              color: #666666;
+              font-size: 13px;
+            }
+          }
+          .desc-box-inner {
+            overflow: hidden;
+          }
+          .project {
+            padding-left: 20px;
+            overflow: hidden;
+            ul.project-wrapper {
+              li.project-inner {
+                margin-top: 8px;
+                float: left;
+                list-style: circle;
+                width: 100%;
+                .desc {
+                  margin-top: 4px;
+                  // line-height: 1.1;
+                }
+              }
             }
           }
         }
@@ -422,7 +443,7 @@
       }
     }
     .box {
-      padding: 20px;
+      // padding: 40px 0 0;
       .script {
         .title-desc {
           font-size: 30px;
