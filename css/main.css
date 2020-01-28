@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Gotham-Bold';
+  font-family: 'Gotham-Bold' 'Roboto', sans-serif;
   src: url("fonts/Gotham-Bold.otf"); }
 
 html, body, div, span, applet, object, iframe,
@@ -18,8 +18,9 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 13px;
   font: inherit;
+  color: #020202;
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
@@ -61,11 +62,17 @@ a {
     padding: 0 20px; }
     .container .box ul {
       width: calc(100%); }
-      .container .box ul .projects-inner li.thumb-project {
+      .container .box ul li.thumb-project {
         margin: 0;
-        width: calc(100%); } }
+        width: calc(100%); }
+  .about .desc-box .desc {
+    width: 80%;
+    float: left; }
+  .about .desc-box .point {
+    width: 20%;
+    float: left; } }
 
-@media screen and (min-width: 981px) {
+@media screen and (min-width: 981px) and (max-width: 1439px) {
   .container .intro {
     padding: 40px; }
     .container .intro .inner .name {
@@ -76,11 +83,40 @@ a {
   .container .box {
     padding: 0 40px; }
     .container .box ul {
-      width: calc(100% + 18px);
-      margin-left: -9px; }
-      .container .box ul .projects-inner li.thumb-project {
+      width: calc(100% + 20px);
+      margin-left: -10px; }
+      .container .box ul li.thumb-project {
         margin: 0 8px;
-        width: calc(50% - 18px); } }
+        width: calc(50% - 20px); }
+  .about .desc-box .desc {
+    width: 50%;
+    float: left; }
+  .about .desc-box .point {
+    width: 30%;
+    float: left; } }
+
+@media screen and (min-width: 1440px) {
+  .container .intro {
+    padding: 40px; }
+    .container .intro .inner .name {
+      font-size: 100px;
+      line-height: 120px; }
+    .container .intro .inner .link {
+      font-size: 30px; }
+  .container .box {
+    padding: 0 40px; }
+    .container .box ul {
+      width: calc(100% + 20px);
+      margin-left: -10px; }
+      .container .box ul li.thumb-project {
+        margin: 0 8px;
+        width: calc(33% - 20px); }
+  .about .desc-box .desc {
+    width: 50%;
+    float: left; }
+  .about .desc-box .point {
+    width: 30%;
+    float: left; } }
 
 .container .intro {
   max-width: 1440px;
@@ -105,19 +141,22 @@ a {
       min-height: 14px;
       padding: 3px;
       background: #020202;
-      color: white;
+      color: #fff;
       text-align: center;
       line-height: 1;
       -webkit-box-sizing: content-box;
       box-sizing: content-box;
       white-space: nowrap; }
       .container .intro .inner .link span i {
-        vertical-align: bottom; }
+        vertical-align: bottom;
+        color: #fff; }
     .container .intro .inner .link:hover {
       color: #1BA3F0; }
       .container .intro .inner .link:hover span {
         color: #1BA3F0;
         background: #fff; }
+        .container .intro .inner .link:hover span i {
+          color: #1BA3F0; }
 
 .container nav {
   position: fixed;
@@ -136,21 +175,74 @@ a {
         color: #1BA3F0; }
 
 .container.about .img-wrapper {
+  width: 100%;
   background-color: #f5f5f5; }
-  .container.about .img-wrapper .img-cover .img-inner .main-img {
-    width: 100%;
-    height: auto; }
+  .container.about .img-wrapper .img-cover {
+    position: relative;
+    margin: 0 auto;
+    height: 70vh;
+    overflow: hidden; }
+    .container.about .img-wrapper .img-cover .img-inner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      -webkit-transform: translate(50%, 50%);
+      transform: translate(50%, 50%); }
+      .container.about .img-wrapper .img-cover .img-inner .main-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: 100%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+
+.container.about .box {
+  padding: 20px; }
+  .container.about .box .script .title {
+    font-size: 20px;
+    font-weight: 700; }
+  .container.about .box .contents {
+    margin-top: 20px; }
+    .container.about .box .contents .title {
+      font-size: 17px;
+      font-weight: 700;
+      font-family: 'Gotham-Bold'; }
+    .container.about .box .contents .desc-box .point li {
+      color: #595959; }
 
 .container.project .img-wrapper {
-  max-width: 1440px;
-  padding: 0 60px;
+  width: 100%;
   background-color: #f5f5f5; }
   .container.project .img-wrapper .img-cover {
-    width: 50%;
-    margin: 0 auto; }
-    .container.project .img-wrapper .img-cover .img-inner .main-img {
-      width: 100%;
-      height: auto; }
+    position: relative;
+    margin: 0 auto;
+    height: 70vh;
+    overflow: hidden; }
+    .container.project .img-wrapper .img-cover .img-inner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      -webkit-transform: translate(50%, 50%);
+      transform: translate(50%, 50%); }
+      .container.project .img-wrapper .img-cover .img-inner .main-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        height: 100%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+
+.container.project .box {
+  padding: 20px; }
+
+.container .img-wrapper {
+  background-color: #f5f5f5; }
 
 .container .box {
   max-width: 1440px;
@@ -160,44 +252,36 @@ a {
   .container .box ul {
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
-    .container .box ul .projects-inner {
-      margin: 0; }
-      .container .box ul .projects-inner li.thumb-project {
-        vertical-align: top;
-        margin-bottom: 40px;
+    .container .box ul li.thumb-project {
+      vertical-align: top;
+      margin-bottom: 40px;
+      position: relative;
+      display: inline-block; }
+      .container .box ul li.thumb-project .box-item {
         position: relative;
-        display: inline-block; }
-        .container .box ul .projects-inner li.thumb-project .box-item {
+        width: 100%; }
+        .container .box ul li.thumb-project .box-item .rollover .box-photo {
           position: relative;
-          width: 100%; }
-          .container .box ul .projects-inner li.thumb-project .box-item .rollover .box-photo {
+          overflow: hidden;
+          z-index: 1; }
+          .container .box ul li.thumb-project .box-item .rollover .box-photo .thumb-img {
             position: relative;
-            overflow: hidden;
+            display: block;
+            width: 100%;
+            height: auto;
             z-index: 1; }
-            .container .box ul .projects-inner li.thumb-project .box-item .rollover .box-photo .thumb-img {
-              position: relative;
-              display: block;
-              width: 100%;
-              height: auto;
-              z-index: 1; }
-              .container .box ul .projects-inner li.thumb-project .box-item .rollover .box-photo .thumb-img:hover {
-                -webkit-transform: scale(1.05);
-                transform: scale(1.05);
-                -webkit-transition: all 0.4s ease-in-out;
-                transition: all 0.4s ease-in-out; }
-        .container .box ul .projects-inner li.thumb-project .box-desc {
-          margin-top: 14px; }
-          .container .box ul .projects-inner li.thumb-project .box-desc .thumb-title {
-            font-size: 24px;
-            line-height: 1;
-            font-weight: 700;
-            padding-bottom: 4px; }
-
-.container.about .box {
-  padding: 20px; }
-
-.container.project .box {
-  padding: 20px; }
+            .container .box ul li.thumb-project .box-item .rollover .box-photo .thumb-img:hover {
+              -webkit-transform: scale(1.05);
+              transform: scale(1.05);
+              -webkit-transition: all 0.4s ease-in-out;
+              transition: all 0.4s ease-in-out; }
+      .container .box ul li.thumb-project .box-desc {
+        margin-top: 14px; }
+        .container .box ul li.thumb-project .box-desc .thumb-title {
+          font-size: 24px;
+          line-height: 1;
+          font-weight: 700;
+          padding-bottom: 4px; }
 
 footer {
   background: #020202;
