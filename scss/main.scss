@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Gotham-Bold' 'Roboto', sans-serif;
+  font-family: 'Montserrat' 'Open Sans' 'Gotham-Bold' 'Roboto', sans-serif;
   src: url("fonts/Gotham-Bold.woff") format('woff');
  }
 
@@ -24,6 +24,7 @@
    color: #020202;
    font-size: 15px;
    line-height: 1;
+   // font-family: 'Open Sans', sans-serif;
  }
  /* HTML5 display-role reset for older browsers */
  article, aside, details, figcaption, figure,
@@ -240,7 +241,7 @@
     max-width: 1440px;
     margin: 0 auto;
     // padding: 40px;
-    font-family: 'Gotham-Bold';
+    font-family: 'Montserrat';
     .inner {
       .name {
         .color1 {
@@ -353,14 +354,13 @@
           font-size: 20px;
           line-height: 1.5;
           font-weight: 700;
-          font-family: 'Gotham-Bold';
+          font-family: 'Montserrat';
           margin-bottom: 14px;
         }
         .link-btn {
           margin-top: 20px;
           color: #595959;
           font-size: 15px;
-          // font-family: 'Gotham-Bold';
           a {
             text-decoration: underline;
           }
@@ -380,7 +380,7 @@
           font-size: 17px;
           line-height: 1.5;
           font-weight: 700;
-          font-family: 'Gotham-Bold';
+          font-family: 'Montserrat';
           margin-bottom: 14px;
         }
         .desc-box {
@@ -459,7 +459,7 @@
           font-size: 30px;
           line-height: 1.5;
           font-weight: 700;
-          font-family: 'Gotham-Bold';
+          font-family: 'Montserrat';
         }
         .desc-box {
           overflow: hidden;
@@ -542,6 +542,7 @@ footer {
   background: #020202;
   height: 40px;
   overflow: hidden;
+  font-family: 'Montserrat';
   .bottom {
     color: #fff;
     .desc {

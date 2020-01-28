@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Gotham-Bold' 'Roboto', sans-serif;
+  font-family: 'Montserrat' 'Open Sans' 'Gotham-Bold' 'Roboto', sans-serif;
   src: url("fonts/Gotham-Bold.woff") format("woff"); }
 
 html, body, div, span, applet, object, iframe,
@@ -161,7 +161,7 @@ a {
 .container .intro {
   max-width: 1440px;
   margin: 0 auto;
-  font-family: 'Gotham-Bold'; }
+  font-family: 'Montserrat'; }
   .container .intro .inner .name .color1:hover {
     color: #FBAE3C; }
   .container .intro .inner .name .color2:hover {
@@ -227,7 +227,7 @@ a {
   font-size: 20px;
   line-height: 1.5;
   font-weight: 700;
-  font-family: 'Gotham-Bold';
+  font-family: 'Montserrat';
   margin-bottom: 14px; }
 
 .container.about .box .script .link-btn {
@@ -250,7 +250,7 @@ a {
     font-size: 17px;
     line-height: 1.5;
     font-weight: 700;
-    font-family: 'Gotham-Bold';
+    font-family: 'Montserrat';
     margin-bottom: 14px; }
   .container.about .box .contents .desc-box {
     margin-bottom: 20px; }
@@ -302,7 +302,7 @@ a {
   font-size: 30px;
   line-height: 1.5;
   font-weight: 700;
-  font-family: 'Gotham-Bold'; }
+  font-family: 'Montserrat'; }
 
 .container.project .box .script .desc-box {
   overflow: hidden; }
@@ -358,7 +358,8 @@ a {
 footer {
   background: #020202;
   height: 40px;
-  overflow: hidden; }
+  overflow: hidden;
+  font-family: 'Montserrat'; }
   footer .bottom {
     color: #fff; }
     footer .bottom .desc {
