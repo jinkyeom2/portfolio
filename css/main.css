@@ -377,6 +377,8 @@ footer {
   background: #020202;
   height: 140px; }
   footer .bottom {
+    max-width: 1440px;
+    margin: 0 auto;
     color: #fff; }
     footer .bottom .contacts {
       overflow: hidden;
