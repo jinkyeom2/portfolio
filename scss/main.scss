@@ -243,11 +243,10 @@
   .intro {
     max-width: 1440px;
     margin: 0 auto;
-    // padding: 40px;
-    font-family: 'Poppins';
-    font-weight: 700;
     .inner {
       .name {
+        font-family: 'Montserrat';
+        // font-weight: 700;
         .color1 {
           &:hover {
             color: #FBAE3C;
@@ -357,8 +356,8 @@
         .title-desc {
           font-size: 20px;
           line-height: 1.5;
-          font-family: 'Poppins';
-          font-weight: 700;
+          font-family: 'Montserrat';
+          // font-weight: 700;
           margin-bottom: 14px;
         }
         .link-btn {
@@ -384,8 +383,8 @@
         .title-desc {
           font-size: 17px;
           line-height: 1.5;
-          font-family: 'Poppins';
-          font-weight: 700;
+          font-family: 'Montserrat';
+          // font-weight: 700;
           margin-bottom: 14px;
         }
         .career-box {
@@ -470,8 +469,8 @@
         .title-desc {
           font-size: 30px;
           line-height: 1.5;
-          font-family: 'Poppins';
-          font-weight: 700;
+          font-family: 'Montserrat';
+          // font-weight: 700;
         }
         .desc-box {
           overflow: hidden;
@@ -553,8 +552,8 @@
             font-size: 20px;
             line-height: 1.5;
             padding-bottom: 2px;
-            font-family: 'Poppins';
-            font-weight: 700;
+            font-family: 'Montserrat';
+            // font-weight: 700;
           }
           .thumb-desc {
             line-height: 1.5;
@@ -563,8 +562,8 @@
           .nodata {
             margin-top: 10px;
             font-size: 13px;
-            font-family: 'Poppins';
-            font-weight: 700;
+            font-family: 'Montserrat';
+            // font-weight: 700;
           }
         }
       }

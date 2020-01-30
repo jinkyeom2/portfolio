@@ -163,17 +163,17 @@ a {
 
 .container .intro {
   max-width: 1440px;
-  margin: 0 auto;
-  font-family: 'Poppins';
-  font-weight: 700; }
-  .container .intro .inner .name .color1:hover {
-    color: #FBAE3C; }
-  .container .intro .inner .name .color2:hover {
-    color: #FA903B; }
-  .container .intro .inner .name .color3:hover {
-    color: #F051CC; }
-  .container .intro .inner .name .color4:hover {
-    color: #7927F5; }
+  margin: 0 auto; }
+  .container .intro .inner .name {
+    font-family: 'Montserrat'; }
+    .container .intro .inner .name .color1:hover {
+      color: #FBAE3C; }
+    .container .intro .inner .name .color2:hover {
+      color: #FA903B; }
+    .container .intro .inner .name .color3:hover {
+      color: #F051CC; }
+    .container .intro .inner .name .color4:hover {
+      color: #7927F5; }
   .container .intro .inner .link {
     margin-top: 24px; }
     .container .intro .inner .link span {
@@ -230,8 +230,7 @@ a {
 .container.about .box .script .title-desc {
   font-size: 20px;
   line-height: 1.5;
-  font-family: 'Poppins';
-  font-weight: 700;
+  font-family: 'Montserrat';
   margin-bottom: 14px; }
 
 .container.about .box .script .link-btn {
@@ -253,8 +252,7 @@ a {
   .container.about .box .contents .title-desc {
     font-size: 17px;
     line-height: 1.5;
-    font-family: 'Poppins';
-    font-weight: 700;
+    font-family: 'Montserrat';
     margin-bottom: 14px; }
   .container.about .box .contents .career-box {
     margin-bottom: 40px; }
@@ -311,8 +309,7 @@ a {
 .container.project .box .script .title-desc {
   font-size: 30px;
   line-height: 1.5;
-  font-family: 'Poppins';
-  font-weight: 700; }
+  font-family: 'Montserrat'; }
 
 .container.project .box .script .desc-box {
   overflow: hidden; }
@@ -361,16 +358,14 @@ a {
           font-size: 20px;
           line-height: 1.5;
           padding-bottom: 2px;
-          font-family: 'Poppins';
-          font-weight: 700; }
+          font-family: 'Montserrat'; }
         .container .box ul.projects li.thumb-project .box-desc .thumb-desc {
           line-height: 1.5;
           width: 82%; }
         .container .box ul.projects li.thumb-project .box-desc .nodata {
           margin-top: 10px;
           font-size: 13px;
-          font-family: 'Poppins';
-          font-weight: 700; }
+          font-family: 'Montserrat'; }
   .container .box .contents .desc-box {
     overflow: hidden; }
 
