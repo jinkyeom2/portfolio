@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Montserrat' 'Roboto', sans-serif;
+  font-family: 'Poppins','Montserrat','Roboto', sans-serif;
   src: url("fonts/Gotham-Bold.woff") format("woff"); }
 
 html, body, div, span, applet, object, iframe,
@@ -164,7 +164,8 @@ a {
 .container .intro {
   max-width: 1440px;
   margin: 0 auto;
-  font-family: 'Montserrat'; }
+  font-family: 'Poppins';
+  font-weight: 700; }
   .container .intro .inner .name .color1:hover {
     color: #FBAE3C; }
   .container .intro .inner .name .color2:hover {
@@ -229,8 +230,8 @@ a {
 .container.about .box .script .title-desc {
   font-size: 20px;
   line-height: 1.5;
+  font-family: 'Poppins';
   font-weight: 700;
-  font-family: 'Montserrat';
   margin-bottom: 14px; }
 
 .container.about .box .script .link-btn {
@@ -252,8 +253,8 @@ a {
   .container.about .box .contents .title-desc {
     font-size: 17px;
     line-height: 1.5;
+    font-family: 'Poppins';
     font-weight: 700;
-    font-family: 'Montserrat';
     margin-bottom: 14px; }
   .container.about .box .contents .career-box {
     margin-bottom: 40px; }
@@ -310,8 +311,8 @@ a {
 .container.project .box .script .title-desc {
   font-size: 30px;
   line-height: 1.5;
-  font-weight: 700;
-  font-family: 'Montserrat'; }
+  font-family: 'Poppins';
+  font-weight: 700; }
 
 .container.project .box .script .desc-box {
   overflow: hidden; }
@@ -359,17 +360,17 @@ a {
         .container .box ul.projects li.thumb-project .box-desc .thumb-title {
           font-size: 20px;
           line-height: 1.5;
-          font-weight: 700;
           padding-bottom: 2px;
-          font-family: 'Montserrat'; }
+          font-family: 'Poppins';
+          font-weight: 700; }
         .container .box ul.projects li.thumb-project .box-desc .thumb-desc {
           line-height: 1.5;
           width: 82%; }
         .container .box ul.projects li.thumb-project .box-desc .nodata {
           margin-top: 10px;
           font-size: 13px;
-          font-weight: 500;
-          font-family: 'Montserrat'; }
+          font-family: 'Poppins';
+          font-weight: 700; }
   .container .box .contents .desc-box {
     overflow: hidden; }
 
