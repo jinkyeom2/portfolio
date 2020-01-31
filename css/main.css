@@ -230,6 +230,7 @@ a {
   font-size: 20px;
   line-height: 1.5;
   font-family: 'Montserrat';
+  font-weight: 700;
   margin-bottom: 14px; }
 
 .container.about .box .script .link-btn {
@@ -252,6 +253,7 @@ a {
     font-size: 17px;
     line-height: 1.5;
     font-family: 'Montserrat';
+    font-weight: 700;
     margin-bottom: 14px; }
   .container.about .box .contents .career-box {
     margin-bottom: 40px; }
@@ -308,7 +310,8 @@ a {
 .container.project .box .script .title-desc {
   font-size: 30px;
   line-height: 1.5;
-  font-family: 'Montserrat'; }
+  font-family: 'Montserrat';
+  font-weight: 700; }
 
 .container.project .box .script .desc-box {
   overflow: hidden; }
@@ -357,14 +360,16 @@ a {
           font-size: 20px;
           line-height: 1.5;
           padding-bottom: 2px;
-          font-family: 'Montserrat'; }
+          font-family: 'Montserrat';
+          font-weight: 700; }
         .container .box ul.projects li.thumb-project .box-desc .thumb-desc {
           line-height: 1.5;
           width: 82%; }
         .container .box ul.projects li.thumb-project .box-desc .nodata {
           margin-top: 10px;
           font-size: 13px;
-          font-family: 'Montserrat'; }
+          font-family: 'Montserrat';
+          font-weight: 700; }
   .container .box .contents .desc-box {
     overflow: hidden; }
 
