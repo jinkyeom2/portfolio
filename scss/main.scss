@@ -241,7 +241,7 @@
 
 .container {
   .intro {
-    max-width: 1440px;
+    max-width: 1280px;
     margin: 0 auto;
     font-family: 'Montserrat';
     // font-weight: 700;
@@ -352,6 +352,7 @@
     }
     .box {
       // padding: 40px 0 0;
+      max-width: 1000px;
       .script {
         .title-desc {
           font-size: 20px;
@@ -465,6 +466,7 @@
     }
     .box {
       // padding: 40px 0 0;
+      max-width: 1000px;
       .script {
         .title-desc {
           font-size: 30px;
@@ -494,7 +496,7 @@
     background-color: #fff;
   }
   .box {
-    max-width: 1440px;
+    max-width: 1280px;
     margin: 0 auto 80px;
     overflow: hidden;
     // line-height: 1.7;
@@ -602,7 +604,7 @@ footer {
   // overflow: hidden;
   // font-family: 'Poppins';
   .bottom {
-    max-width: 1440px;
+    max-width: 1280px;
     margin: 0 auto;
     color: #fff;
     .contacts {
