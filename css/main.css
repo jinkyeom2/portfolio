@@ -1,3 +1,11 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: 'Inter', sans-serif; }
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif; } }
+
 @font-face {
   font-family: 'Poppins','Montserrat','Roboto', sans-serif;
   src: url("fonts/Gotham-Bold.woff") format("woff"); }
@@ -66,7 +74,7 @@ a {
     padding: 20px 20px 0; }
     .container .intro .inner .name {
       font-size: 55px;
-      line-height: 65px; }
+      line-height: 60px; }
     .container .intro .inner .link {
       font-size: 20px; }
   .container .box {
@@ -98,7 +106,7 @@ a {
     padding: 40px 40px 0; }
     .container .intro .inner .name {
       font-size: 100px;
-      line-height: 115px; }
+      line-height: 105px; }
     .container .intro .inner .link {
       font-size: 24px; }
   .container .box {
@@ -132,7 +140,7 @@ a {
     padding: 40px 40px 0; }
     .container .intro .inner .name {
       font-size: 100px;
-      line-height: 115px; }
+      line-height: 105px; }
     .container .intro .inner .link {
       font-size: 24px; }
   .container .box {
@@ -164,16 +172,21 @@ a {
 .container .intro {
   max-width: 1280px;
   margin: 0 auto;
-  font-family: 'Montserrat'; }
-  .container .intro .inner .name .color1:hover {
-    color: #FBAE3C; }
-  .container .intro .inner .name .color2:hover {
-    color: #FA903B; }
-  .container .intro .inner .name .color3:hover {
-    color: #F051CC; }
-  .container .intro .inner .name .color4:hover {
-    color: #7927F5; }
+  font-family: 'Inter'; }
+  .container .intro .inner .name {
+    font-weight: 800;
+    letter-spacing: -.01em; }
+    .container .intro .inner .name .color1:hover {
+      color: #FBAE3C; }
+    .container .intro .inner .name .color2:hover {
+      color: #FA903B; }
+    .container .intro .inner .name .color3:hover {
+      color: #F051CC; }
+    .container .intro .inner .name .color4:hover {
+      color: #7927F5; }
   .container .intro .inner .link {
+    font-weight: 700;
+    letter-spacing: -.02em;
     margin-top: 24px; }
     .container .intro .inner .link span {
       margin-left: 4px;
@@ -231,7 +244,7 @@ a {
   .container.about .box .script .title-desc {
     font-size: 20px;
     line-height: 1.5;
-    font-family: 'Montserrat';
+    font-family: 'Inter';
     font-weight: 700;
     margin-bottom: 14px; }
   .container.about .box .script .link-btn {
@@ -252,7 +265,7 @@ a {
     .container.about .box .contents .title-desc {
       font-size: 17px;
       line-height: 1.5;
-      font-family: 'Montserrat';
+      font-family: 'Inter';
       font-weight: 700;
       margin-bottom: 14px; }
     .container.about .box .contents .career-box {
@@ -312,7 +325,7 @@ a {
   .container.project .box .script .title-desc {
     font-size: 30px;
     line-height: 1.5;
-    font-family: 'Montserrat';
+    font-family: 'Inter';
     font-weight: 700; }
   .container.project .box .script .desc-box {
     overflow: hidden; }
@@ -340,27 +353,37 @@ a {
       display: inline-block; }
       .container .box ul.projects li.thumb-project .box-item {
         position: relative;
-        width: 100%; }
-        .container .box ul.projects li.thumb-project .box-item .rollover .box-photo {
-          position: relative;
-          overflow: hidden;
-          z-index: 1; }
-          .container .box ul.projects li.thumb-project .box-item .rollover .box-photo .thumb-img {
-            position: relative;
-            display: block;
-            width: 100%;
-            height: auto;
-            z-index: 1; }
-            .container .box ul.projects li.thumb-project .box-item .rollover .box-photo .thumb-img:hover {
-              transform: scale(1.05);
-              transition: all 0.4s ease-in-out; }
+        overflow: hidden;
+        cursor: pointer;
+        padding-bottom: 100%;
+        height: 0; }
+        .container .box ul.projects li.thumb-project .box-item .box-photo .thumb-cover {
+          position: absolute;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 5;
+          font-family: 'Inter';
+          font-size: 30px;
+          color: #fff; }
+          .container .box ul.projects li.thumb-project .box-item .box-photo .thumb-cover:hover {
+            background-color: rgba(0, 0, 0, 0.5); }
+        .container .box ul.projects li.thumb-project .box-item .box-photo .thumb-img {
+          position: absolute;
+          top: 0;
+          display: block;
+          width: 100%;
+          height: auto; }
+          .container .box ul.projects li.thumb-project .box-item .box-photo .thumb-img:hover {
+            transform: scale(1.05);
+            transition: all 0.4s ease-in-out; }
       .container .box ul.projects li.thumb-project .box-desc {
         margin-top: 12px; }
         .container .box ul.projects li.thumb-project .box-desc .thumb-title {
           font-size: 20px;
           line-height: 1.5;
           padding-bottom: 2px;
-          font-family: 'Montserrat';
+          font-family: 'Inter';
           font-weight: 700; }
         .container .box ul.projects li.thumb-project .box-desc .thumb-desc {
           line-height: 1.5;
@@ -368,7 +391,7 @@ a {
         .container .box ul.projects li.thumb-project .box-desc .nodata {
           margin-top: 10px;
           font-size: 13px;
-          font-family: 'Montserrat';
+          font-family: 'Inter';
           font-weight: 700; }
   .container .box .contents .desc-box {
     overflow: hidden; }

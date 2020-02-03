@@ -1,3 +1,8 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
 @font-face {
   font-family: 'Poppins','Montserrat','Roboto', sans-serif;
   src: url("fonts/Gotham-Bold.woff") format('woff');
@@ -73,7 +78,7 @@
       .inner {
         .name {
           font-size: 55px;
-          line-height: 65px;
+          line-height: 60px;
         }
         .link {
           font-size: 20px;
@@ -130,7 +135,7 @@
       .inner {
         .name {
           font-size: 100px;
-          line-height: 115px;
+          line-height: 105px;
         }
         .link {
           font-size: 24px;
@@ -188,7 +193,7 @@
       .inner {
         .name {
           font-size: 100px;
-          line-height: 115px;
+          line-height: 105px;
         }
         .link {
           font-size: 24px;
@@ -243,10 +248,11 @@
   .intro {
     max-width: 1280px;
     margin: 0 auto;
-    font-family: 'Montserrat';
-    // font-weight: 700;
+    font-family: 'Inter';
     .inner {
       .name {
+        font-weight: 800;
+        letter-spacing: -.01em;
         .color1 {
           &:hover {
             color: #FBAE3C;
@@ -269,6 +275,8 @@
         }
       }
       .link {
+        font-weight: 700;
+        letter-spacing: -.02em;
         margin-top: 24px;
         span {
           margin-left: 4px;
@@ -357,7 +365,7 @@
         .title-desc {
           font-size: 20px;
           line-height: 1.5;
-          font-family: 'Montserrat';
+          font-family: 'Inter';
           font-weight: 700;
           margin-bottom: 14px;
         }
@@ -384,7 +392,7 @@
         .title-desc {
           font-size: 17px;
           line-height: 1.5;
-          font-family: 'Montserrat';
+          font-family: 'Inter';
           font-weight: 700;
           margin-bottom: 14px;
         }
@@ -471,7 +479,7 @@
         .title-desc {
           font-size: 30px;
           line-height: 1.5;
-          font-family: 'Montserrat';
+          font-family: 'Inter';
           font-weight: 700;
         }
         .desc-box {
@@ -511,61 +519,65 @@
         display: inline-block;
         .box-item {
           position: relative;
-          width: 100%;
-          .rollover {
-            .box-photo {
-              position: relative;
-              overflow: hidden;
-              z-index: 1;
-              // .thumb-cover {
-              //   &:hover {
-              //     display: inherit;
-              //     // color: white;
-              //     background: rgba(0, 0, 0, 0.8);
-              //     z-index: 2;
-              //     cursor: pointer;
-              //     // line-height: 1.6;
-              //     display: none;
-              //     position: absolute;
-              //     top: 0;
-              //     width: 100%;
-              //     height: 100%;
-              //     padding: 10px;
-              //     // color: white;
-              //     z-index: 2;
-              //     box-sizing: border-box;
-              //   }
-              // }
-              .thumb-img {
-                position: relative;
-                display: block;
-                width: 100%;
-                height: auto;
-                z-index: 1;
-                &:hover {
-                  transform: scale(1.05);
-                  transition: all 0.4s ease-in-out;
-                  // opacity: 0.8;
-                }
+          // max-width: 100%;
+          overflow: hidden;
+          cursor: pointer;
+          // line-height: 0;
+          padding-bottom: 100%;
+          height: 0;
+          .box-photo {
+            // .thumb-cover {
+            //   background-color: rgba(0, 0, 0, 1);
+            //   color: black;
+            //   // display: inherit;
+            //   // color: white;
+            //
+            //   // z-index: 5;
+            //   cursor: pointer;
+            //   // line-height: 1.6;
+            //   display: none;
+            //   position: absolute;
+            //   top: 0;
+            //   width: 100%;
+            //   height: 100%;
+            //   // padding: 10px;
+            //   // color: white;
+            //   z-index: 2;
+            //   box-sizing: border-box;
+            //
+            // }
+            .thumb-cover {
+              position: absolute;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              z-index: 5;
+              // padding: 50px;
+              font-family: 'Inter';
+              font-size: 30px;
+              color: #fff;
+              &:hover {
+                background-color: rgba(0, 0, 0, 0.5);
               }
-
-              // .middle {
-              //   z-index: 10;
-              //   color: red;
-              //   font-size: 30px;
-              //   transition: .5s ease;
-              //   opacity: 0;
-              //   position: absolute;
-              //   top: 50%;
-              //   left: 50%;
-              //   transform: translate(-50%, -50%);
-              //   text-align: center;
-              //   &:hover {
-              //     opacity: 1;
-              //   }
-              // }
             }
+            .thumb-img {
+              position: absolute;
+              top: 0;
+              display: block;
+              width: 100%;
+              height: auto;
+              // z-index: 1;
+              &:hover {
+                transform: scale(1.05);
+                transition: all 0.4s ease-in-out;
+                // opacity: 0.8;
+              }
+            }
+
           }
+          // .rollover {
+          //
+          // }
         }
         .box-desc {
           margin-top: 12px;
@@ -573,7 +585,7 @@
             font-size: 20px;
             line-height: 1.5;
             padding-bottom: 2px;
-            font-family: 'Montserrat';
+            font-family: 'Inter';
             font-weight: 700;
           }
           .thumb-desc {
@@ -583,7 +595,7 @@
           .nodata {
             margin-top: 10px;
             font-size: 13px;
-            font-family: 'Montserrat';
+            font-family: 'Inter';
             font-weight: 700;
           }
         }
