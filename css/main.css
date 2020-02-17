@@ -7,8 +7,7 @@ html {
     font-family: 'Inter var', sans-serif; } }
 
 @font-face {
-  font-family: 'Poppins','Montserrat','Roboto', sans-serif;
-  src: url("fonts/Gotham-Bold.woff") format("woff"); }
+  font-family: 'Poppins','Montserrat','Roboto', sans-serif; }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -29,7 +28,7 @@ time, mark, audio, video {
 
 body {
   color: #020202;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1;
   font-family: 'Roboto', sans-serif; }
 
@@ -65,35 +64,50 @@ a {
   color: #fff; }
 
 .font {
-  color: #393939;
-  font-size: 15px;
-  line-height: 23px; }
+  font-size: 16px;
+  line-height: 28px; }
 
-@media screen and (max-width: 827px) {
-  .container .intro {
-    padding: 20px 20px 0; }
-    .container .intro .inner .name {
-      font-size: 62px;
-      line-height: 68px; }
-    .container .intro .inner .link {
-      font-size: 20px; }
+nav {
+  position: fixed;
+  top: 0;
+  padding-left: 20px;
+  z-index: 10; }
+  nav .header-menu {
+    display: inline-block;
+    height: 60px;
+    font-size: 30px;
+    line-height: 60px; }
+    nav .header-menu span {
+      vertical-align: middle;
+      color: #020202; }
+      nav .header-menu span:hover {
+        color: #fff; }
+
+@media screen and (max-width: 767px) {
   .container .box {
     padding: 20px; }
-    .container .box ul.projects {
+  .container.home .intro {
+    padding: 20px 20px 0; }
+    .container.home .intro .inner .name {
+      font-size: 62px;
+      line-height: 68px; }
+    .container.home .intro .inner .btn-link {
+      font-size: 20px; }
+  .container.home .container-home ul.projects {
+    width: calc(100%); }
+    .container.home .container-home ul.projects li.thumb-project {
+      margin: 0;
       width: calc(100%); }
-      .container .box ul.projects li.thumb-project {
-        margin: 0;
-        width: calc(100%); }
-  .about .career-box .desc {
+  .container.about .career-box .desc {
     width: 100%;
     float: left; }
-  .about .career-box .point {
+  .container.about .career-box .point {
     width: 100%;
     float: left; }
-  .project .desc-box .desc {
+  .container.project .desc-box .desc {
     width: 100%;
     float: left; }
-  .project .desc-box .point {
+  .container.project .desc-box .point {
     margin: 0;
     width: 100%;
     float: left;
@@ -101,33 +115,33 @@ a {
   footer {
     padding: 20px; } }
 
-@media screen and (min-width: 828px) and (max-width: 1279px) {
-  .container .intro {
-    padding: 40px 40px 0; }
-    .container .intro .inner .name {
-      font-size: 110px;
-      line-height: 115px; }
-    .container .intro .inner .link {
-      font-size: 24px; }
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .container .box {
     padding: 40px; }
-    .container .box ul.projects {
-      width: calc(100% + 20px);
-      margin-left: -10px; }
-      .container .box ul.projects li.thumb-project {
-        margin: 0 8px;
-        width: calc(50% - 20px); }
-  .about .career-box .desc {
+  .container.home .intro {
+    padding: 40px 40px 0; }
+    .container.home .intro .inner .name {
+      font-size: 110px;
+      line-height: 120px; }
+    .container.home .intro .inner .btn-link {
+      font-size: 24px; }
+  .container.home .container-home ul.projects {
+    width: calc(100% + 20px);
+    margin-left: -10px; }
+    .container.home .container-home ul.projects li.thumb-project {
+      margin: 0 8px;
+      width: calc(50% - 20px); }
+  .container.about .career-box .desc {
     width: 70%;
     float: left; }
-  .about .career-box .point {
+  .container.about .career-box .point {
     width: 30%;
     float: left;
     text-align: right; }
-  .project .desc-box .desc {
+  .container.project .desc-box .desc {
     width: 70%;
     float: left; }
-  .project .desc-box .point {
+  .container.project .desc-box .point {
     margin: 0;
     width: calc(30% - 40px);
     float: left;
@@ -136,32 +150,32 @@ a {
     padding: 40px; } }
 
 @media screen and (min-width: 1280px) {
-  .container .intro {
-    padding: 40px 40px 0; }
-    .container .intro .inner .name {
-      font-size: 110px;
-      line-height: 115px; }
-    .container .intro .inner .link {
-      font-size: 24px; }
   .container .box {
     padding: 40px; }
-    .container .box ul.projects {
-      width: calc(100% + 20px);
-      margin-left: -10px; }
-      .container .box ul.projects li.thumb-project {
-        margin: 0 8px;
-        width: calc(33% - 20px); }
-  .about .career-box .desc {
+  .container.home .intro {
+    padding: 40px 40px 0; }
+    .container.home .intro .inner .name {
+      font-size: 110px;
+      line-height: 120px; }
+    .container.home .intro .inner .btn-link {
+      font-size: 24px; }
+  .container.home .container-home ul.projects {
+    width: calc(100% + 20px);
+    margin-left: -10px; }
+    .container.home .container-home ul.projects li.thumb-project {
+      margin: 0 8px;
+      width: calc(33% - 20px); }
+  .container.about .career-box .desc {
     width: 70%;
     float: left; }
-  .about .career-box .point {
+  .container.about .career-box .point {
     width: 30%;
     float: left;
     text-align: right; }
-  .project .desc-box .desc {
+  .container.project .desc-box .desc {
     width: 70%;
     float: left; }
-  .project .desc-box .point {
+  .container.project .desc-box .point {
     margin: 0;
     width: calc(30% - 40px);
     float: left;
@@ -169,195 +183,69 @@ a {
   footer {
     padding: 40px; } }
 
-.container .intro {
-  max-width: 1280px;
-  margin: 0 auto;
-  font-family: 'Inter'; }
-  .container .intro .inner .name {
-    font-weight: 800;
-    letter-spacing: -.01em; }
-    .container .intro .inner .name .color1:hover {
-      color: #FBAE3C; }
-    .container .intro .inner .name .color2:hover {
-      color: #FA903B; }
-    .container .intro .inner .name .color3:hover {
-      color: #F051CC; }
-    .container .intro .inner .name .color4:hover {
-      color: #7927F5; }
-  .container .intro .inner .link {
-    font-weight: 700;
-    letter-spacing: -.02em;
-    margin-top: 24px; }
-    .container .intro .inner .link span {
-      margin-left: 4px;
-      vertical-align: middle;
-      display: inline-block;
-      border-radius: 100%;
-      min-width: 14px;
-      min-height: 14px;
-      padding: 3px;
-      background: #020202;
-      color: #fff;
-      text-align: center;
-      line-height: 1;
-      box-sizing: content-box;
-      white-space: nowrap; }
-      .container .intro .inner .link span i {
-        vertical-align: bottom;
-        color: #fff; }
-    .container .intro .inner .link:hover {
-      color: #1BA3F0; }
-      .container .intro .inner .link:hover span {
-        color: #1BA3F0;
-        background: #fff; }
-        .container .intro .inner .link:hover span i {
-          color: #1BA3F0; }
-
-.container nav {
-  position: fixed;
-  top: 0;
-  padding-left: 20px;
-  z-index: 10; }
-  .container nav .header-menu {
-    display: inline-block;
-    height: 60px;
-    font-size: 30px;
-    line-height: 60px; }
-    .container nav .header-menu span {
-      vertical-align: middle;
-      color: #020202; }
-      .container nav .header-menu span:hover {
-        color: #fff; }
-
-.container.about .img-wrapper {
-  width: 100%;
-  background-color: #fff; }
-  .container.about .img-wrapper .img-cover {
+.container {
+  margin-bottom: 80px; }
+  .container .box {
+    max-width: 1280px;
     margin: 0 auto;
     overflow: hidden; }
-    .container.about .img-wrapper .img-cover .img-inner .main-img {
-      width: 100%;
-      height: auto; }
-
-.container.about .box {
-  max-width: 1000px; }
-  .container.about .box .script .title-desc {
-    font-size: 20px;
-    line-height: 1.5;
-    font-family: 'Inter';
-    font-weight: 700;
-    margin-bottom: 14px; }
-  .container.about .box .script .link-btn {
-    margin-top: 20px;
-    color: #7927F5;
-    font-size: 15px; }
-    .container.about .box .script .link-btn a {
-      text-decoration: underline; }
-  .container.about .box .contents {
-    margin-top: 20px; }
-    .container.about .box .contents hr {
-      height: 1px;
-      border: none;
-      background-color: #000;
-      margin: 30px 0 10px;
-      width: 100%;
-      float: left; }
-    .container.about .box .contents .title-desc {
-      font-size: 17px;
-      line-height: 1.5;
-      font-family: 'Inter';
+  .container.home .intro {
+    max-width: 1280px;
+    margin: 0 auto 20px;
+    font-family: 'Inter'; }
+    .container.home .intro .inner .name {
+      font-weight: 800;
+      letter-spacing: -.01em; }
+      .container.home .intro .inner .name .color1:hover {
+        color: #FBAE3C; }
+      .container.home .intro .inner .name .color2:hover {
+        color: #FA903B; }
+      .container.home .intro .inner .name .color3:hover {
+        color: #F051CC; }
+      .container.home .intro .inner .name .color4:hover {
+        color: #7927F5; }
+    .container.home .intro .inner .btn-link {
       font-weight: 700;
-      margin-bottom: 14px; }
-    .container.about .box .contents .career-box {
-      margin-bottom: 40px; }
-      .container.about .box .contents .career-box .point li {
-        color: #666666;
-        font-size: 13px; }
-      .container.about .box .contents .career-box .career-box-inner {
-        overflow: hidden;
-        margin-bottom: 6px; }
-        .container.about .box .contents .career-box .career-box-inner .desc {
-          font-size: 16px;
-          font-weight: 700; }
-      .container.about .box .contents .career-box .career-wrapper .career-desc {
-        margin-bottom: 4px; }
-      .container.about .box .contents .career-box .career-wrapper .career-point {
-        color: #666666; }
-      .container.about .box .contents .career-box .service {
-        margin-top: 8px;
-        padding-left: 20px;
-        overflow: hidden;
-        font-size: 14px;
-        line-height: 1.5;
-        color: #666666; }
-        .container.about .box .contents .career-box .service ul.service-wrapper li.service-inner {
-          float: left;
-          list-style: circle;
-          width: 100%; }
-          .container.about .box .contents .career-box .service ul.service-wrapper li.service-inner .desc {
-            margin-top: 4px; }
-
-.container.project .img-wrapper {
-  width: 100%;
-  background-color: #fff; }
-  .container.project .img-wrapper .img-cover {
-    position: relative;
-    margin: 0 auto;
-    height: 70vh;
-    overflow: hidden; }
-    .container.project .img-wrapper .img-cover .img-inner {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      transform: translate(50%, 50%); }
-      .container.project .img-wrapper .img-cover .img-inner .main-img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: auto;
-        height: 100%;
-        transform: translate(-50%, -50%); }
-
-.container.project .box {
-  max-width: 1000px; }
-  .container.project .box .script .title-desc {
-    font-size: 30px;
-    line-height: 1.5;
-    font-family: 'Inter';
-    font-weight: 700; }
-  .container.project .box .script .desc-box {
-    overflow: hidden; }
-    .container.project .box .script .desc-box .point {
-      list-style: circle; }
-  .container.project .box .contents .img-inner {
-    margin: 20px 0; }
-    .container.project .box .contents .img-inner .desc-img {
-      width: 100%;
-      height: auto; }
-
-.container .img-wrapper {
-  background-color: #fff; }
-
-.container .box {
-  max-width: 1280px;
-  margin: 0 auto 80px;
-  overflow: hidden; }
-  .container .box ul.projects {
+      letter-spacing: -.02em;
+      margin-top: 50px; }
+      .container.home .intro .inner .btn-link span {
+        margin-left: 4px;
+        vertical-align: middle;
+        display: inline-block;
+        border-radius: 100%;
+        min-width: 14px;
+        min-height: 14px;
+        padding: 3px;
+        background: #020202;
+        color: #fff;
+        text-align: center;
+        line-height: 1;
+        box-sizing: content-box;
+        white-space: nowrap; }
+        .container.home .intro .inner .btn-link span i {
+          vertical-align: bottom;
+          color: #fff; }
+      .container.home .intro .inner .btn-link:hover {
+        color: #1BA3F0; }
+        .container.home .intro .inner .btn-link:hover span {
+          color: #1BA3F0;
+          background: #fff; }
+          .container.home .intro .inner .btn-link:hover span i {
+            color: #1BA3F0; }
+  .container.home .container-home ul.projects {
     box-sizing: border-box; }
-    .container .box ul.projects li.thumb-project {
+    .container.home .container-home ul.projects li.thumb-project {
       vertical-align: top;
       margin-bottom: 40px;
       position: relative;
       display: inline-block; }
-      .container .box ul.projects li.thumb-project .box-item {
+      .container.home .container-home ul.projects li.thumb-project .box-item {
         position: relative;
         overflow: hidden;
         cursor: pointer;
         padding-bottom: 100%;
         height: 0; }
-        .container .box ul.projects li.thumb-project .box-item .box-photo .thumb-cover {
+        .container.home .container-home ul.projects li.thumb-project .box-item .box-photo .thumb-cover {
           position: absolute;
           top: 0;
           width: 100%;
@@ -366,35 +254,109 @@ a {
           font-family: 'Inter';
           font-size: 30px;
           color: #fff; }
-          .container .box ul.projects li.thumb-project .box-item .box-photo .thumb-cover:hover {
+          .container.home .container-home ul.projects li.thumb-project .box-item .box-photo .thumb-cover:hover {
             background-color: rgba(0, 0, 0, 0.5); }
-        .container .box ul.projects li.thumb-project .box-item .box-photo .thumb-img {
+        .container.home .container-home ul.projects li.thumb-project .box-item .box-photo .thumb-img {
           position: absolute;
           top: 0;
           display: block;
           width: 100%;
           height: auto; }
-          .container .box ul.projects li.thumb-project .box-item .box-photo .thumb-img:hover {
+          .container.home .container-home ul.projects li.thumb-project .box-item .box-photo .thumb-img:hover {
             transform: scale(1.05);
             transition: all 0.4s ease-in-out; }
-      .container .box ul.projects li.thumb-project .box-desc {
+      .container.home .container-home ul.projects li.thumb-project .box-desc {
         margin-top: 12px; }
-        .container .box ul.projects li.thumb-project .box-desc .thumb-title {
-          font-size: 20px;
-          line-height: 1.5;
-          padding-bottom: 2px;
+        .container.home .container-home ul.projects li.thumb-project .box-desc .thumb-title {
+          padding-bottom: 6px;
           font-family: 'Inter';
+          font-size: 24px;
           font-weight: 700; }
-        .container .box ul.projects li.thumb-project .box-desc .thumb-desc {
-          line-height: 1.5;
+        .container.home .container-home ul.projects li.thumb-project .box-desc .thumb-desc {
           width: 90%; }
-        .container .box ul.projects li.thumb-project .box-desc .nodata {
-          margin-top: 10px;
-          font-size: 13px;
+        .container.home .container-home ul.projects li.thumb-project .box-desc .nodata {
+          margin-top: 6px;
           font-family: 'Inter';
+          font-size: 16px;
+          letter-spacing: -.5px;
           font-weight: 700; }
-  .container .box .contents .desc-box {
-    overflow: hidden; }
+  .container.about .img-wrapper {
+    width: 100%;
+    background-color: #fff; }
+    .container.about .img-wrapper .img-cover {
+      margin: 0 auto;
+      overflow: hidden; }
+      .container.about .img-wrapper .img-cover .img-inner .main-img {
+        width: 100%;
+        height: auto; }
+  .container.about .container-about {
+    max-width: 960px; }
+    .container.about .container-about .script .title-desc {
+      font-size: 20px;
+      line-height: 1.5;
+      font-family: 'Inter';
+      font-weight: 700;
+      margin-bottom: 14px; }
+    .container.about .container-about .script .btn-link {
+      margin-top: 20px;
+      color: #7927F5; }
+      .container.about .container-about .script .btn-link a {
+        text-decoration: underline; }
+    .container.about .container-about .contents {
+      margin-top: 20px; }
+      .container.about .container-about .contents hr {
+        float: left;
+        width: 100%;
+        height: 1px;
+        margin: 30px 0 10px;
+        border: none;
+        background-color: #000; }
+      .container.about .container-about .contents .title-desc {
+        margin-bottom: 14px;
+        font-family: 'Inter';
+        font-size: 18px;
+        font-weight: 700; }
+      .container.about .container-about .contents .career-box {
+        margin-bottom: 40px; }
+        .container.about .container-about .contents .career-box .point li {
+          color: #666666;
+          font-size: 14px; }
+        .container.about .container-about .contents .career-box .career-box-inner {
+          overflow: hidden;
+          margin-bottom: 6px; }
+          .container.about .container-about .contents .career-box .career-box-inner .desc {
+            font-weight: 700; }
+        .container.about .container-about .contents .career-box .career-wrapper .career-desc {
+          margin-bottom: 4px; }
+        .container.about .container-about .contents .career-box .career-wrapper .career-point {
+          color: #666666; }
+        .container.about .container-about .contents .career-box .service {
+          margin-top: 8px;
+          padding-left: 20px;
+          overflow: hidden;
+          font-size: 14px;
+          line-height: 1.5;
+          color: #666666; }
+          .container.about .container-about .contents .career-box .service ul.service-wrapper li.service-inner {
+            float: left;
+            list-style: circle;
+            width: 100%; }
+            .container.about .container-about .contents .career-box .service ul.service-wrapper li.service-inner .desc {
+              margin-top: 4px; }
+  .container.project {
+    margin-top: 80px; }
+    .container.project .container-project {
+      max-width: 960px; }
+      .container.project .container-project .script .title-desc {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 20px; }
+    .container.project .contents .img-inner {
+      max-width: 960px;
+      margin: 0 auto;
+      overflow: hidden; }
+    .container.project .contents img {
+      width: 100%; }
 
 footer {
   background: #020202;
