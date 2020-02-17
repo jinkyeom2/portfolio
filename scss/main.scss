@@ -517,13 +517,11 @@ html { font-family: 'Inter', sans-serif; }
             color: #666666;
             ul.service-wrapper {
               li.service-inner {
-                // margin-top: 8px;
                 float: left;
                 list-style: circle;
                 width: 100%;
                 .desc {
                   margin-top: 4px;
-                  // line-height: 1.1;
                 }
               }
             }
@@ -536,28 +534,15 @@ html { font-family: 'Inter', sans-serif; }
     margin-top: 80px;
     .container-project {
       max-width: 960px;
-      // padding: 100px 0;
-      // color: #020202;
       .script {
         .title-desc {
           font-size: 40px;
           font-weight: 700;
           margin-bottom: 20px;
         }
-        // .desc-box {
-        //   color: #020202;
-        //   font-size: 16px;
-        //   line-height: 1.7;
-        // }
       }
     }
-    // .contents {
-    //   .desc-box {
-    //     overflow: hidden;
-    //   }
-    // }
     .contents {
-      // background-color: #FFF6F4;
       .img-inner {
         max-width: 960px;
         margin: 0 auto;
@@ -573,28 +558,20 @@ html { font-family: 'Inter', sans-serif; }
 footer {
   background: #020202;
   height: 140px;
-  // overflow: hidden;
-  // font-family: 'Poppins';
   .bottom {
     max-width: 1280px;
     margin: 0 auto;
     color: #fff;
     .contacts {
-      // float: right;
       overflow: hidden;
       width: 100%;
       li {
-        // float: left;
         padding-bottom: 14px;
-        a {
-          // text-decoration: underline;
-        }
       }
     }
     .desc {
       margin-top: 36px;
       float: left;
-      // font-size: 20px;
       opacity: 0.5;
     }
   }
