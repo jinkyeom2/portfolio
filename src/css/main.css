@@ -167,7 +167,7 @@ a {
 .container .intro {
   max-width: 1440px;
   margin: 0 auto;
-  font-family: 'Gotham-Bold'; }
+  font-family: 'Campton'; }
   .container .intro .inner .name .color1:hover {
     color: #FBAE3C; }
   .container .intro .inner .name .color2:hover {
@@ -233,7 +233,7 @@ a {
   font-size: 20px;
   line-height: 1.5;
   font-weight: 700;
-  font-family: 'Gotham-Bold';
+  font-family: 'Campton';
   margin-bottom: 14px; }
 
 .container.about .box .script .link-btn {
@@ -308,7 +308,7 @@ a {
   font-size: 30px;
   line-height: 1.5;
   font-weight: 700;
-  font-family: 'Gotham-Bold'; }
+  font-family: 'Campton'; }
 
 .container.project .box .script .desc-box {
   overflow: hidden; }
