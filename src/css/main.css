@@ -1,6 +1,9 @@
 @font-face {
   font-family: 'Gotham-Bold' 'Roboto', sans-serif;
-  src: url("fonts/Gotham-Bold.woff") format("woff");
+  src: url("fonts/Gotham-Bold.woff") format("woff");}
+
+@font-face {
+  font-family: 'Campton';
   src: url("fonts/Campton-BoldDEMO.eot") format("eot");
   src: url("fonts/Campton-BoldDEMO.woff") format("woff");
   src: url("fonts/Campton-BoldDEMO.woff2") format("woff2"); }
