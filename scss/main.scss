@@ -95,7 +95,6 @@ html { font-family: 'Inter', sans-serif; }
      font-size: 30px;
      line-height: 60px;
      span {
-       // margin-left: 4px;
        vertical-align: middle;
        display: inline-block;
        border-radius: 100%;
@@ -217,14 +216,6 @@ html { font-family: 'Inter', sans-serif; }
               margin-left: -6%;
             }
           }
-          ul.desc-col {
-            li {
-              // margin-bottom: 16px;
-              // &:last-child {
-              //   margin-bottom: 0;
-              // }
-            }
-          }
         }
       }
       .post-img {
@@ -305,7 +296,6 @@ html { font-family: 'Inter', sans-serif; }
               .inner {
                 transform: translateY(-30px);
                 transition: all 0.4s ease-in;
-                // transition-delay: 0.8s;
                 .arrow {
                   i {
                     visibility: visible;
@@ -346,23 +336,6 @@ html { font-family: 'Inter', sans-serif; }
         }
       }
     }
-    // &.index {
-    //   overflow: hidden;
-    //   ul.ul-sumnail {
-    //     width: calc(100% + 16px);
-    //     margin-left: -8px;
-    //     li.sumnail {
-    //       vertical-align: top;
-    //       margin: 0 8px;
-    //       width: calc(33.3333% - 16px);
-    //       position: relative;
-    //       display: inline-block;
-    //       .post-img {
-    //         background-color: orange;
-    //       }
-    //     }
-    //   }
-    // }
 
     &.project {
       .img-wrapper {
@@ -480,8 +453,6 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 .ll-title {
-  // margin-top: 24px;
-  // margin-bottom: 8px;
   font-family: 'Inter';
   font-size: 30px;
   font-weight: 700;
@@ -512,7 +483,6 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 .exp {
-  // margin-top: 8px;
   font-size: 16px;
   word-break: keep-all;
   word-wrap: break-word;
@@ -622,30 +592,8 @@ html { font-family: 'Inter', sans-serif; }
             .arrow {
               margin-top: 16px;
               font-size: 30px;
-              // i {
-              //   visibility: hidden;
-              //   opacity: 0;
-              // }
             }
           }
-          // &.color6 {
-          //   background-color: #F24B7A;
-          // }
-          // &.color5 {
-          //   background-color: #FF6262;
-          // }
-          // &.color4 {
-          //   background-color: #8458DE;
-          // }
-          // &.color3 {
-          //   background-color: #353535;
-          // }
-          // &.color2 {
-          //   background-color: #353535;
-          // }
-          // &.color1 {
-          //   background-color: #353535;
-          // }
         }
         .post-img {
           z-index: 1;
@@ -677,7 +625,6 @@ html { font-family: 'Inter', sans-serif; }
     .img-wrapper {
       .img {
         margin: 0 auto;
-        // padding-top: 20px;
         display: block;
         width: 100%;
         height: auto;
@@ -686,18 +633,9 @@ html { font-family: 'Inter', sans-serif; }
     .wrapper {
       padding: 100px 0;
       .about-wrapper {
-        // &:first-child {
-        //   padding-top: 100px;
-        // }
-        // &:last-child {
-        //   padding-bottom: 100px;
-        // }
         .wrapper-inner {
           padding-top: 40px;
           padding-bottom: 40px;
-          &.line {
-            // border-bottom: 1px solid #333333;
-          }
           .post {
             .post-desc {
               padding-bottom: 24px;
@@ -743,11 +681,6 @@ html { font-family: 'Inter', sans-serif; }
       }
     }
     .project-wrapper {
-      &.intro {
-        .wrapper-inner {
-          // background-color: orange;
-        }
-      }
       .wrapper-inner {
         // background-color: yellow;
         &:first-child {
@@ -779,7 +712,6 @@ html { font-family: 'Inter', sans-serif; }
           }
         }
         .wrap-title {
-          // background-color: pink;
           margin-bottom: 24px;
         }
         .post {
@@ -787,10 +719,6 @@ html { font-family: 'Inter', sans-serif; }
           &:first-child {
             padding-top: 0;
           }
-          // background-color: green;
-          // .post-title {
-          //   margin-bottom: 20px;
-          // }
           .post-desc {
             .desc-img {
               padding-top: 20px;
@@ -809,9 +737,6 @@ html { font-family: 'Inter', sans-serif; }
               }
               i {
                 vertical-align: middle;
-                // background-color: #EF5555;
-                // border-radius: 50%;
-                // color: #FFFFFF;
               }
             }
             ul.desc-point {
@@ -822,7 +747,6 @@ html { font-family: 'Inter', sans-serif; }
               background-color: #F9F9F9;
             }
             ul.desc-col {
-              // margin-bottom: 24px;
               &:last-child {
                 margin-bottom: 0;
               }
