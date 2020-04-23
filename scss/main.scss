@@ -341,7 +341,7 @@ html { font-family: 'Inter', sans-serif; }
         .img {
           margin: 0 auto;
           display: block;
-          width: 60%;
+          width: 55%;
           min-width: 700px;
           height: auto;
         }
@@ -553,21 +553,25 @@ html { font-family: 'Inter', sans-serif; }
         .color1 {
           &:hover {
             color: #FBAE3C;
+            // text-decoration:line-through;
           }
         }
         .color2 {
           &:hover {
             color: #FA903B;
+            // text-decoration:line-through;
           }
         }
         .color3 {
           &:hover {
             color: #F24B7A;
+            // text-decoration:line-through;
           }
         }
         .color4 {
           &:hover {
             color: #7C47F6;
+            // text-decoration:line-through;
           }
         }
       }
@@ -579,6 +583,7 @@ html { font-family: 'Inter', sans-serif; }
         }
         &:hover {
           color: #1BA3F0;
+          text-decoration: underline;
         }
       }
     }
