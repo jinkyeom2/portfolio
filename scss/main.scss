@@ -257,7 +257,6 @@ html { font-family: 'Inter', sans-serif; }
     &.index {
       .sumnail-wrapper {
         .sumnail {
-          width: 80%;
 
           &.new {
             float: right;
@@ -284,15 +283,7 @@ html { font-family: 'Inter', sans-serif; }
               }
             }
           }
-          .post-img {
-            position: absolute;
-            top: 0;
-          }
-          .post-img.uni {
-            img {
-              margin-top: -35px;
-            }
-          }
+
 
           &:hover {
             .sumnail-box {
@@ -409,18 +400,27 @@ html { font-family: 'Inter', sans-serif; }
       }
       .sumnail-wrapper {
         .sumnail {
+          width: 80%;
           height: 500px;
-          margin-bottom: 300px;
+          margin-bottom: 160px;
           .sumnail-box {
+            width: 40%;
             height: 500px;
-            // left: 10%;
           }
           .post-img {
-            right: -8%;
+            width: 60%;
+            // position: absolute;
+            // top: 0;
+            // right: -8%;
             img {
-              float: right;
-              width: 65%;
+              width: 100%;
               min-width: 380px;
+              max-width: 800px;
+            }
+          }
+          .post-img.uni {
+            img {
+              margin-top: -5%;
             }
           }
         }
@@ -439,18 +439,31 @@ html { font-family: 'Inter', sans-serif; }
       }
       .sumnail-wrapper {
         .sumnail {
+          width: 80%;
           height: 600px;
           margin-bottom: 300px;
+          &.new2 {
+            width: calc(80% - 20%);
+            padding-left: 20%;
+          }
           .sumnail-box {
+            width: 30%;
             height: 600px;
-            // left: 5%;
           }
           .post-img {
-            right: 8%;
+            width: 70%;
+            // position: absolute;
+            // top: 0;
+            // right: 8%;
             img {
-              float: right;
-              width: 75%;
+              width: 100%;
               min-width: 380px;
+              max-width: 800px;
+            }
+          }
+          .post-img.uni {
+            img {
+              margin-top: -5%;
             }
           }
         }
@@ -572,6 +585,7 @@ html { font-family: 'Inter', sans-serif; }
           overflow: hidden;
           color: #FFFFFF;
           z-index: 10;
+          float: left;
           .inner {
             &.color6 {
               background-color: #F24B7A;
@@ -612,6 +626,8 @@ html { font-family: 'Inter', sans-serif; }
         }
         .post-img {
           z-index: 1;
+          float: left;
+          // float: right;
         }
         &.color6 {
           background-color: #F24B7A;
@@ -631,7 +647,6 @@ html { font-family: 'Inter', sans-serif; }
         &.color1 {
           background-color: #353535;
         }
-
       }
     }
   }
