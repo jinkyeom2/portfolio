@@ -83,32 +83,25 @@ hr {
 nav {
   position: fixed;
   top: 0;
-  padding-left: 20px;
   z-index: 10; }
   nav .header-menu {
-    display: inline-block;
-    height: 60px;
-    font-size: 30px;
-    line-height: 60px; }
+    display: inline-block; }
     nav .header-menu span {
       vertical-align: middle;
       display: inline-block;
-      border-radius: 100%;
-      min-width: 14px;
-      min-height: 14px;
-      padding: 6px;
+      padding: 10px;
       background: #020202;
       color: #fff;
       text-align: center;
       line-height: 1;
       box-sizing: content-box;
       white-space: nowrap;
-      font-size: 20px; }
+      font-size: 24px; }
       nav .header-menu span i {
         vertical-align: bottom;
         color: #fff; }
       nav .header-menu span:hover {
-        opacity: 70%; }
+        background: #000000; }
 
 @media screen and (max-width: 767px) {
   .box {
@@ -218,8 +211,8 @@ nav {
   .container.project .img-wrapper .img {
     margin: 0 auto;
     display: block;
-    width: 55%;
-    max-width: 800px;
+    width: 60%;
+    min-width: 700px;
     height: auto; }
   .container.project .post.center {
     text-align: center; }
@@ -356,7 +349,7 @@ nav {
   .container.index .intro-description .name .color3:hover {
     color: #F24B7A; }
   .container.index .intro-description .name .color4:hover {
-    color: #8458DE; }
+    color: #7C47F6; }
   .container.index .intro-description .btn-link {
     margin-top: 28px;
     font-size: 20px; }
@@ -378,9 +371,9 @@ nav {
       .container.index .sumnail-wrapper .sumnail .sumnail-box .inner.color6 {
         background-color: #F24B7A; }
       .container.index .sumnail-wrapper .sumnail .sumnail-box .inner.color5 {
-        background-color: #FF6262; }
+        background-color: #FF5959; }
       .container.index .sumnail-wrapper .sumnail .sumnail-box .inner.color4 {
-        background-color: #8458DE; }
+        background-color: #7C47F6; }
       .container.index .sumnail-wrapper .sumnail .sumnail-box .inner.color3 {
         background-color: #353535; }
       .container.index .sumnail-wrapper .sumnail .sumnail-box .inner.color2 {
@@ -406,9 +399,9 @@ nav {
     .container.index .sumnail-wrapper .sumnail.color6 {
       background-color: #F24B7A; }
     .container.index .sumnail-wrapper .sumnail.color5 {
-      background-color: #FF6262; }
+      background-color: #FF5959; }
     .container.index .sumnail-wrapper .sumnail.color4 {
-      background-color: #8458DE; }
+      background-color: #7C47F6; }
     .container.index .sumnail-wrapper .sumnail.color3 {
       background-color: #353535; }
     .container.index .sumnail-wrapper .sumnail.color2 {
@@ -452,10 +445,10 @@ nav {
   background-color: #F24B7A; }
 
 .container.project .img-wrapper.project5 {
-  background-color: #FF6262; }
+  background-color: #FF5959; }
 
 .container.project .img-wrapper.project4 {
-  background: linear-gradient(45deg, #da4d9f 0%, #7e46ff 30%); }
+  background: linear-gradient(45deg, #da4d9f 0%, #7c47f6 30%); }
 
 .container.project .project-wrapper .wrapper-inner:first-child {
   padding-top: 80px; }

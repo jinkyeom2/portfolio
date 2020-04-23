@@ -87,33 +87,34 @@ html { font-family: 'Inter', sans-serif; }
  nav {
    position: fixed;
    top:0;
-   padding-left: 20px;
+   // padding-left: 20px;
    z-index: 10;
    .header-menu {
      display: inline-block;
-     height: 60px;
-     font-size: 30px;
-     line-height: 60px;
+     // height: 60px;
+     // font-size: 30px;
+     // line-height: 60px;
      span {
        vertical-align: middle;
        display: inline-block;
-       border-radius: 100%;
-       min-width: 14px;
-       min-height: 14px;
-       padding: 6px;
+       // border-radius: 100%;
+       // min-width: 14px;
+       // min-height: 14px;
+       padding: 10px;
        background: #020202;
        color: #fff;
        text-align: center;
        line-height: 1;
        box-sizing: content-box;
        white-space: nowrap;
-       font-size: 20px;
+       font-size: 24px;
        i {
          vertical-align: bottom;
          color: #fff;
        }
        &:hover {
-         opacity: 70%;
+         background: #000000;
+         // opacity: 70%;
          // background: #FFFFFF;
          // border: 1px solid #020202;
          // i {
@@ -340,8 +341,8 @@ html { font-family: 'Inter', sans-serif; }
         .img {
           margin: 0 auto;
           display: block;
-          width: 55%;
-          max-width: 800px;
+          width: 60%;
+          min-width: 700px;
           height: auto;
         }
       }
@@ -566,7 +567,7 @@ html { font-family: 'Inter', sans-serif; }
         }
         .color4 {
           &:hover {
-            color: #8458DE;
+            color: #7C47F6;
           }
         }
       }
@@ -596,10 +597,10 @@ html { font-family: 'Inter', sans-serif; }
               background-color: #F24B7A;
             }
             &.color5 {
-              background-color: #FF6262;
+              background-color: #FF5959;
             }
             &.color4 {
-              background-color: #8458DE;
+              background-color: #7C47F6;
             }
             &.color3 {
               background-color: #353535;
@@ -637,10 +638,10 @@ html { font-family: 'Inter', sans-serif; }
           background-color: #F24B7A;
         }
         &.color5 {
-          background-color: #FF6262;
+          background-color: #FF5959;
         }
         &.color4 {
-          background-color: #8458DE;
+          background-color: #7C47F6;
         }
         &.color3 {
           background-color: #353535;
@@ -711,10 +712,10 @@ html { font-family: 'Inter', sans-serif; }
         background-color: #F24B7A;
       }
       &.project5 {
-        background-color: #FF6262;
+        background-color: #FF5959;
       }
       &.project4 {
-        background: linear-gradient(45deg, rgba(218,77,159,1) 0%, rgba(126,70,255,1) 30%);
+        background: linear-gradient(45deg, rgba(218,77,159,1) 0%, rgba(124,71,246,1) 30%);
       }
     }
     .project-wrapper {
