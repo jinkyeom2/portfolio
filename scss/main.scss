@@ -696,8 +696,8 @@ html { font-family: 'Inter', sans-serif; }
       }
     }
     .project-wrapper {
+      overflow: hidden;
       .wrapper-inner {
-        overflow: hidden;
         &:first-child {
           padding-top: 80px;
         }
