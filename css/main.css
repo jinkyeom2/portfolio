@@ -141,16 +141,20 @@ nav {
     display: block;
     width: 100%;
     height: auto; }
-  .container.project .post .post-desc .desc-img.size30 {
-    width: 50%; }
-  .container.project .post .post-desc .desc-img.size70 {
-    width: 100%; }
-  .container.project .post-img {
-    margin-right: -10%; }
-    .container.project .post-img.over {
-      margin-right: -60%; }
-    .container.project .post-img.img2 {
-      margin-right: -10%; } }
+  .container.project .project-wrapper .wrapper-inner {
+    overflow: hidden; }
+    .container.project .project-wrapper .wrapper-inner.nopa .post-img {
+      padding-top: 140px; }
+    .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-img.size30 {
+      width: 50%; }
+    .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-img.size70 {
+      width: 100%; }
+    .container.project .project-wrapper .wrapper-inner .post-img {
+      margin-right: -10%; }
+      .container.project .project-wrapper .wrapper-inner .post-img.over {
+        margin-right: -60%; }
+      .container.project .project-wrapper .wrapper-inner .post-img.img2 {
+        margin-right: -10%; } }
 
 @media screen and (min-width: 768px) {
   .box {
@@ -441,66 +445,61 @@ nav {
 .container.project .img-wrapper.project4 {
   background: linear-gradient(45deg, #da4d9f 0%, #7c47f6 30%); }
 
-.container.project .project-wrapper .wrapper-inner:first-child {
-  padding-top: 80px; }
-
-.container.project .project-wrapper .wrapper-inner:last-child {
-  padding-bottom: 80px; }
-
-.container.project .project-wrapper .wrapper-inner.line {
-  border-bottom: 1px solid #333333; }
-
-.container.project .project-wrapper .wrapper-inner.uni {
-  padding-bottom: 0; }
-
-.container.project .project-wrapper .wrapper-inner.nopa {
-  padding-top: 0;
-  padding-bottom: 0; }
-  .container.project .project-wrapper .wrapper-inner.nopa .post {
-    position: relative; }
-    .container.project .project-wrapper .wrapper-inner.nopa .post .inner {
-      position: absolute;
-      top: 0;
-      padding-top: 80px;
-      color: #FFFFFF; }
-  .container.project .project-wrapper .wrapper-inner.nopa .post-img {
-    margin-bottom: 0; }
-
-.container.project .project-wrapper .wrapper-inner .wrap-title {
-  margin-bottom: 24px; }
-
-.container.project .project-wrapper .wrapper-inner .post {
-  padding-top: 60px; }
-  .container.project .project-wrapper .wrapper-inner .post:first-child {
-    padding-top: 0; }
-  .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-img {
-    padding-top: 20px; }
-    .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-img img {
-      width: 100%; }
-    .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-img.typo {
-      padding-top: 4px;
-      padding-bottom: 12px; }
-  .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-form {
-    margin-bottom: 12px; }
-    .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-form span {
-      color: #EF5555; }
-    .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-form i {
-      vertical-align: middle; }
-  .container.project .project-wrapper .wrapper-inner .post .post-desc ul.desc-point {
-    color: #909090; }
-  .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-box {
-    padding: 32px 30px 12px;
-    background-color: #F9F9F9; }
-  .container.project .project-wrapper .wrapper-inner .post .post-desc ul.desc-col:last-child {
-    margin-bottom: 0; }
-  .container.project .project-wrapper .wrapper-inner .post .post-desc ul.desc-col li {
-    padding-bottom: 20px; }
-
-.container.project .project-wrapper .wrapper-inner .post-img:first-child {
-  margin-bottom: 40px; }
-
-.container.project .project-wrapper .wrapper-inner .post-img img {
-  width: 100%; }
+.container.project .project-wrapper .wrapper-inner {
+  overflow: hidden; }
+  .container.project .project-wrapper .wrapper-inner:first-child {
+    padding-top: 80px; }
+  .container.project .project-wrapper .wrapper-inner:last-child {
+    padding-bottom: 80px; }
+  .container.project .project-wrapper .wrapper-inner.line {
+    border-bottom: 1px solid #333333; }
+  .container.project .project-wrapper .wrapper-inner.uni {
+    padding-bottom: 0; }
+  .container.project .project-wrapper .wrapper-inner.nopa {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #1A1A1A; }
+    .container.project .project-wrapper .wrapper-inner.nopa .post {
+      position: relative; }
+      .container.project .project-wrapper .wrapper-inner.nopa .post .inner {
+        position: absolute;
+        top: 0;
+        padding-top: 80px;
+        color: #FFFFFF; }
+    .container.project .project-wrapper .wrapper-inner.nopa .post-img {
+      margin-bottom: 0; }
+  .container.project .project-wrapper .wrapper-inner .wrap-title {
+    margin-bottom: 24px; }
+  .container.project .project-wrapper .wrapper-inner .post {
+    padding-top: 60px; }
+    .container.project .project-wrapper .wrapper-inner .post:first-child {
+      padding-top: 0; }
+    .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-img {
+      padding-top: 20px; }
+      .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-img img {
+        width: 100%; }
+      .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-img.typo {
+        padding-top: 4px;
+        padding-bottom: 12px; }
+    .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-form {
+      margin-bottom: 12px; }
+      .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-form span {
+        color: #EF5555; }
+      .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-form i {
+        vertical-align: middle; }
+    .container.project .project-wrapper .wrapper-inner .post .post-desc ul.desc-point {
+      color: #909090; }
+    .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-box {
+      padding: 32px 30px 12px;
+      background-color: #F9F9F9; }
+    .container.project .project-wrapper .wrapper-inner .post .post-desc ul.desc-col:last-child {
+      margin-bottom: 0; }
+    .container.project .project-wrapper .wrapper-inner .post .post-desc ul.desc-col li {
+      padding-bottom: 20px; }
+  .container.project .project-wrapper .wrapper-inner .post-img:first-child {
+    margin-bottom: 40px; }
+  .container.project .project-wrapper .wrapper-inner .post-img img {
+    width: 100%; }
 
 .container.project .project-wrapper.project4_c1 {
   background-color: #FFF4F4; }
