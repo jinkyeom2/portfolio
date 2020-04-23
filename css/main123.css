@@ -414,6 +414,8 @@ nav {
       padding-bottom: 24px; }
       .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc:last-child {
         padding-bottom: 0; }
+      .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc .exp.uni {
+        font-size: 40px; }
       .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc .desc-form {
         margin-bottom: 12px; }
         .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc .desc-form .point {
