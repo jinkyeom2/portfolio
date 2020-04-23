@@ -189,8 +189,8 @@ html { font-family: 'Inter', sans-serif; }
         }
       }
       .project-wrapper {
+        overflow: hidden;
         .wrapper-inner {
-          overflow: hidden;
           &.nopa {
             .post-img {
               padding-top: 140px;
