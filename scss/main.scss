@@ -193,7 +193,7 @@ html { font-family: 'Inter', sans-serif; }
         .wrapper-inner {
           &.nopa {
             .post-img {
-              padding-top: 140px;
+              padding-top: 200px;
             }
           }
           .post {
@@ -330,48 +330,57 @@ html { font-family: 'Inter', sans-serif; }
           height: auto;
         }
       }
-      .post {
-        &.center {
-          text-align: center;
-        }
-        .post-desc {
-          .desc-img {
-            &.size30 {
-              width: 33%;
+      .project-wrapper {
+        .wrapper-inner {
+          &.nopa {
+            .post-img {
+              padding-top: 200px;
             }
-            &.size70 {
-              width: 70%;
-            }
+          }
+          .post {
             &.center {
-              margin: 0 auto;
+              text-align: center;
             }
-            &.uni {
-              margin-top: -20px;
+            .post-desc {
+              .desc-img {
+                &.size30 {
+                  width: 33%;
+                }
+                &.size70 {
+                  width: 70%;
+                }
+                &.center {
+                  margin: 0 auto;
+                }
+                &.uni {
+                  margin-left: -30px;
+                }
+              }
+              ul.desc-col {
+                overflow: hidden;
+                li.desc.col2 {
+                  float: left;
+                  width: calc(50% - 24px);
+                  margin-right: 24px;
+                }
+                li.desc.col3 {
+                  float: left;
+                  width: calc(33.33% - 24px);
+                  margin-right: 24px;
+                }
+                li.desc.col4 {
+                  float: left;
+                  width: calc(25% - 24px);
+                  margin-right: 24px;
+                }
+              }
             }
           }
-          ul.desc-col {
-            overflow: hidden;
-            li.desc.col2 {
-              float: left;
-              width: calc(50% - 24px);
-              margin-right: 24px;
-            }
-            li.desc.col3 {
-              float: left;
-              width: calc(33.33% - 24px);
-              margin-right: 24px;
-            }
-            li.desc.col4 {
-              float: left;
-              width: calc(25% - 24px);
-              margin-right: 24px;
+          .post-img {
+            &.over {
+              margin-right: -45%;
             }
           }
-        }
-      }
-      .post-img {
-        &.over {
-          margin-right: -45%;
         }
       }
     }
@@ -713,7 +722,7 @@ html { font-family: 'Inter', sans-serif; }
         &.nopa {
           padding-top: 0;
           padding-bottom: 0;
-          background-color: #1A1A1A;
+          background-color: #272727;
           .post {
             position: relative;
             .inner {

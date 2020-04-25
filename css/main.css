@@ -141,10 +141,10 @@ nav {
     display: block;
     width: 100%;
     height: auto; }
-  .container.project .project-wrapper .wrapper-inner {
+  .container.project .project-wrapper {
     overflow: hidden; }
     .container.project .project-wrapper .wrapper-inner.nopa .post-img {
-      padding-top: 140px; }
+      padding-top: 200px; }
     .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-img.size30 {
       width: 50%; }
     .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-img.size70 {
@@ -213,31 +213,33 @@ nav {
     width: 55%;
     min-width: 700px;
     height: auto; }
-  .container.project .post.center {
+  .container.project .project-wrapper .wrapper-inner.nopa .post-img {
+    padding-top: 200px; }
+  .container.project .project-wrapper .wrapper-inner .post.center {
     text-align: center; }
-  .container.project .post .post-desc .desc-img.size30 {
+  .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-img.size30 {
     width: 33%; }
-  .container.project .post .post-desc .desc-img.size70 {
+  .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-img.size70 {
     width: 70%; }
-  .container.project .post .post-desc .desc-img.center {
+  .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-img.center {
     margin: 0 auto; }
-  .container.project .post .post-desc .desc-img.uni {
-    margin-top: -20px; }
-  .container.project .post .post-desc ul.desc-col {
+  .container.project .project-wrapper .wrapper-inner .post .post-desc .desc-img.uni {
+    margin-left: -30px; }
+  .container.project .project-wrapper .wrapper-inner .post .post-desc ul.desc-col {
     overflow: hidden; }
-    .container.project .post .post-desc ul.desc-col li.desc.col2 {
+    .container.project .project-wrapper .wrapper-inner .post .post-desc ul.desc-col li.desc.col2 {
       float: left;
       width: calc(50% - 24px);
       margin-right: 24px; }
-    .container.project .post .post-desc ul.desc-col li.desc.col3 {
+    .container.project .project-wrapper .wrapper-inner .post .post-desc ul.desc-col li.desc.col3 {
       float: left;
       width: calc(33.33% - 24px);
       margin-right: 24px; }
-    .container.project .post .post-desc ul.desc-col li.desc.col4 {
+    .container.project .project-wrapper .wrapper-inner .post .post-desc ul.desc-col li.desc.col4 {
       float: left;
       width: calc(25% - 24px);
       margin-right: 24px; }
-  .container.project .post-img.over {
+  .container.project .project-wrapper .wrapper-inner .post-img.over {
     margin-right: -45%; } }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -445,7 +447,7 @@ nav {
 .container.project .img-wrapper.project4 {
   background: linear-gradient(45deg, #da4d9f 0%, #7c47f6 30%); }
 
-.container.project .project-wrapper .wrapper-inner {
+.container.project .project-wrapper {
   overflow: hidden; }
   .container.project .project-wrapper .wrapper-inner:first-child {
     padding-top: 80px; }
@@ -458,7 +460,7 @@ nav {
   .container.project .project-wrapper .wrapper-inner.nopa {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #1A1A1A; }
+    background-color: #272727; }
     .container.project .project-wrapper .wrapper-inner.nopa .post {
       position: relative; }
       .container.project .project-wrapper .wrapper-inner.nopa .post .inner {
@@ -500,24 +502,19 @@ nav {
     margin-bottom: 40px; }
   .container.project .project-wrapper .wrapper-inner .post-img img {
     width: 100%; }
-
-.container.project .project-wrapper.project4_c1 {
-  background-color: #FFF4F4; }
-
-.container.project .project-wrapper.project6_c1 {
-  background-color: #FFF4F4; }
-
-.container.project .project-wrapper.project6_c2 {
-  background-color: #FFDFDF; }
-  .container.project .project-wrapper.project6_c2 .project-wrap {
-    padding-top: 60px;
-    padding-bottom: 0; }
-
-.container.project .project-wrapper.project5_c1 {
-  background-color: #FFF4F4; }
-
-.container.project .project-wrapper.project5_c2 {
-  background-color: #FFDFDF; }
+  .container.project .project-wrapper.project4_c1 {
+    background-color: #FFF4F4; }
+  .container.project .project-wrapper.project6_c1 {
+    background-color: #FFF4F4; }
+  .container.project .project-wrapper.project6_c2 {
+    background-color: #FFDFDF; }
+    .container.project .project-wrapper.project6_c2 .project-wrap {
+      padding-top: 60px;
+      padding-bottom: 0; }
+  .container.project .project-wrapper.project5_c1 {
+    background-color: #FFF4F4; }
+  .container.project .project-wrapper.project5_c2 {
+    background-color: #FFDFDF; }
 
 footer {
   background: #020202;
