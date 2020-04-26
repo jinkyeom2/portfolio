@@ -667,7 +667,7 @@ html { font-family: 'Inter', sans-serif; }
           padding-bottom: 40px;
           .post {
             .post-desc {
-              padding-bottom: 24px;
+              padding-bottom: 32px;
               &:last-child {
                 padding-bottom: 0;
               }
@@ -675,20 +675,35 @@ html { font-family: 'Inter', sans-serif; }
                 font-size: 40px;
               }
               .desc-form {
-                margin-bottom: 12px;
-                .point {
-                  padding-top: 4px;
-                  color: #929292;
-                  font-size: 14px;
-                  line-height: 24px;
-                }
-                .service {
+                // margin-bottom: 20px;
+                .date {
                   color: #666666;
-                  font-size: 14px;
-                  line-height: 24px;
+                  margin-bottom: 8px;
+                }
+                .career-wrapper {
+                  margin-bottom: 8px;
                   li {
                     margin-left: 16px;
                     list-style-type: disc;
+                  }
+                }
+                .point {
+                  margin-bottom: 8px;
+                  padding-left: 16px;
+                  // color: #929292;
+                  line-height: 24px;
+                }
+
+                .service {
+                  padding-left: 16px;
+                  .service-wrapper {
+                    color: #666666;
+                    font-size: 14px;
+                    line-height: 24px;
+                    // li {
+                    //   margin-left: 16px;
+                    //   list-style-type: disc;
+                    // }
                   }
                 }
               }

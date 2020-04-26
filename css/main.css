@@ -420,25 +420,29 @@ nav {
     padding-top: 40px;
     padding-bottom: 40px; }
     .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc {
-      padding-bottom: 24px; }
+      padding-bottom: 32px; }
       .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc:last-child {
         padding-bottom: 0; }
       .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc .exp.uni {
         font-size: 40px; }
-      .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc .desc-form {
-        margin-bottom: 12px; }
-        .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc .desc-form .point {
-          padding-top: 4px;
-          color: #929292;
-          font-size: 14px;
-          line-height: 24px; }
-        .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc .desc-form .service {
+      .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc .desc-form .date {
+        color: #666666;
+        margin-bottom: 8px; }
+      .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc .desc-form .career-wrapper {
+        margin-bottom: 8px; }
+        .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc .desc-form .career-wrapper li {
+          margin-left: 16px;
+          list-style-type: disc; }
+      .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc .desc-form .point {
+        margin-bottom: 8px;
+        padding-left: 16px;
+        line-height: 24px; }
+      .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc .desc-form .service {
+        padding-left: 16px; }
+        .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc .desc-form .service .service-wrapper {
           color: #666666;
           font-size: 14px;
           line-height: 24px; }
-          .container.about .wrapper .about-wrapper .wrapper-inner .post .post-desc .desc-form .service li {
-            margin-left: 16px;
-            list-style-type: disc; }
 
 .container.project .img-wrapper.project6 {
   background-color: #F24B7A; }
