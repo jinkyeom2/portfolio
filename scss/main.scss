@@ -438,16 +438,23 @@ html { font-family: 'Inter', sans-serif; }
           width: 80%;
           height: 600px;
           margin-bottom: 300px;
+          &.new {
+            .post-img {
+              width: 60%;
+            }
+          }
           &.new2 {
             width: calc(80% - 10%);
             padding-left: 10%;
+            .post-img {
+              width: 70%;
+            }
           }
           .sumnail-box {
             width: 30%;
             height: 600px;
           }
           .post-img {
-            width: 70%;
             img {
               width: 100%;
               min-width: 380px;
